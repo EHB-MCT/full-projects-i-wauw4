@@ -1,1 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
+body {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+nav div {
+    display: inline-block;
+}
+
+.logo img {
+    height: 40px;
+    padding-left: 50px;
+}
+
+.logo {
+    width: 55%;
+}
+
+nav .list ul li {
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.middel {
+    background-image: url("img/");
+}
