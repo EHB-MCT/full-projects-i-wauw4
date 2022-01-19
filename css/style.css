@@ -66,19 +66,42 @@ header .middel .tekst p {
 footer h1 {
     font-size: 50px;
     margin-bottom: 50px;
+    border-bottom: black;
+    border-style: dashed;
 }
 
 footer {
-    padding-left: 150px;
+    display: inline-block;
 }
 
 footer ul li {
-    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+footer p {
+    padding-top: 100px;
+    text-align: center;
+}
+
+footer ul {
+    display: flex
 }
 
 footer button {
     font-size: 15px;
+    color: rgb(0, 0, 0);
+    border: none;
 }
+
+footer button:hover {
+    color: blue;
+    font-size: 25px;
+}
+
+main {
+    margin-top: 300px;
+}
+
 
 /*gewerkt door NABRAS*/
 
@@ -96,7 +119,7 @@ footer button {
     padding-top: 50px;
     padding-bottom: 20px;
     background-color: white;
-    
+
 }
 
 
@@ -110,7 +133,7 @@ footer button {
 
 .work h2 {
     font-size: 50px;
-    padding-left:85%;
+    padding-left: 85%;
     padding-top: 50px;
     padding-bottom: 20px;
     background-color: white;
@@ -153,14 +176,14 @@ footer button {
 
 }
 
-.twp h2{
+.twp h2 {
     font-size: 50px;
     padding-top: 100px;
     text-align: center;
     color: blue;
 }
 
-.twp p{
+.twp p {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -177,7 +200,7 @@ div.gallery {
 
 div.gallery:hover {
     border: 1px solid #777;
-    
+
 }
 
 div.gallery img {
@@ -193,10 +216,3 @@ div.desc {
 
 
 /*TOT HIER gewerkt door NABRAS*/
-
-
-
-    
-
-
-
