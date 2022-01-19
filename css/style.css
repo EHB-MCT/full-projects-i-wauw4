@@ -84,19 +84,19 @@ footer button {
 
 /*process PAGINA*/
 .think img {
-    width: 20%;
-    padding-left: 1000px;
+    width: 40%;
+    padding-left: 800px;
     padding-top: 10px;
 
 }
 
 .think h2 {
-    font-size: 80px;
+    font-size: 50px;
     padding-left: 70px;
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: blue;
-    margin-top: 20px;
+    background-color: white;
+    
 }
 
 
@@ -109,11 +109,11 @@ footer button {
 }
 
 .work h2 {
-    font-size: 5px;
-    padding-left: 850px;
+    font-size: 50px;
+    padding-left:85%;
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: blue;
+    background-color: white;
     margin-top: 20px;
 }
 
@@ -121,17 +121,50 @@ footer button {
     color: white;
     background-color: rgb(6, 6, 114);
     padding-bottom: 20px;
-
 }
 
 .think h2:hover {
     color: white;
     background-color: rgb(6, 6, 114);
     padding-bottom: 20px;
+}
+
+.play h2 {
+    font-size: 50px;
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.play h2:hover {
+    color: white;
+    background-color: rgb(6, 6, 114);
+    padding-bottom: 20px;
 
 }
 
+.play img {
+    width: 40%;
+    padding-left: 800px;
+    padding-top: 10px;
 
+
+}
+
+.twp h2{
+    font-size: 50px;
+    padding-top: 100px;
+    text-align: center;
+    color: blue;
+}
+
+.twp p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 /*PROJECT PAGINA*/
 
@@ -144,6 +177,7 @@ div.gallery {
 
 div.gallery:hover {
     border: 1px solid #777;
+    
 }
 
 div.gallery img {
@@ -154,6 +188,15 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+    background-color: white;
 }
 
+
 /*TOT HIER gewerkt door NABRAS*/
+
+
+
+    
+
+
+
