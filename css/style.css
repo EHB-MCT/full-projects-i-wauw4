@@ -7,6 +7,8 @@ html {
 body {
     padding: 20px;
     font-family: 'Inter', sans-serif;
+    background-image: url(../images/hip-square.png);
+    background-attachment: fixed;
 }
 
 nav div {
@@ -61,117 +63,68 @@ header .middel .tekst p {
     padding-left: 150px;
 }
 
-.deel1 {
-    display: flex;
-}
-
-.galerij img {
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.galerij {
-    margin-left: 100px;
-}
-
-.galerij a {
-    text-decoration: none;
-    background-color: rgb(42, 145, 179);
-    padding: 20px 10px;
-    border-radius: 7px;
-    color: #fff;
-}
-
-.galerij a:hover {
-    background-color: rgb(39, 39, 172);
-}
-
-.galerij .knop1 {
-    padding-left: 20px;
-    padding-top: 150px;
-}
-
-.galerij .knop2 {
-    padding-left: 20px;
-    padding-top: 100px;
-}
-
-.deel1 div {
-    flex: 1;
-}
-
-.deel2 {
-    display: flex;
-}
-
-.deel2 div {
-    flex: 1;
-}
-
-.einde h1 {
-    background-color: rgb(34, 162, 204);
-    width: 100%;
-    color: #fff;
-    text-align: center;
+footer h1 {
     font-size: 50px;
-    padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 
-.einde p {
-    background-color: rgb(34, 162, 204);
-    width: 100%;
-    color: #fff;
-    text-align: center;
-    padding-bottom: 10px;
+footer {
+    padding-left: 150px;
 }
 
+footer ul li {
+    margin-bottom: 20px;
+}
 
+footer button {
+    font-size: 15px;
+}
 
 /*gewerkt door NABRAS*/
 
 /*process PAGINA*/
-.think img{
+.think img {
     width: 20%;
     padding-left: 1000px;
     padding-top: 10px;
-    
+
 }
 
-.think h2{
+.think h2 {
     font-size: 80px;
     padding-left: 70px;
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color:blue;
+    background-color: blue;
     margin-top: 20px;
 }
 
 
-.work img{
+.work img {
     width: 40%;
     padding-left: 100px;
     padding-top: 10px;
-    
-    
+
+
 }
 
-.work h2{
+.work h2 {
     font-size: 5px;
     padding-left: 850px;
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color:blue;
+    background-color: blue;
     margin-top: 20px;
 }
 
-.work h2:hover{
+.work h2:hover {
     color: white;
     background-color: rgb(6, 6, 114);
     padding-bottom: 20px;
-    
+
 }
 
-.think h2:hover{
+.think h2:hover {
     color: white;
     background-color: rgb(6, 6, 114);
     padding-bottom: 20px;
@@ -187,20 +140,20 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
     width: 180px;
-  }
-  
-  div.gallery:hover {
+}
+
+div.gallery:hover {
     border: 1px solid #777;
-  }
-  
-  div.gallery img {
+}
+
+div.gallery img {
     width: 100%;
     height: auto;
-  }
-  
-  div.desc {
+}
+
+div.desc {
     padding: 15px;
     text-align: center;
-  }
+}
 
 /*TOT HIER gewerkt door NABRAS*/
