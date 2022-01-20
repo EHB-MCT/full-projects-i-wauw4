@@ -118,13 +118,152 @@ main div {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*gewerkt door NABRAS*/
 
 /*process PAGINA*/
 .think img {
-    width: 40%;
-    padding-left: 800px;
+    width: 30%;
+    padding-left: 30px;
     padding-top: 10px;
+    
 
 }
 
@@ -139,8 +278,8 @@ main div {
 
 
 .work img {
-    width: 40%;
-    padding-left: 100px;
+    width: 30%;
+    padding-left: 30px;
     padding-top: 10px;
 
 
@@ -184,8 +323,8 @@ main div {
 }
 
 .play img {
-    width: 40%;
-    padding-left: 800px;
+    width: 30%;
+    padding-left: 30px;
     padding-top: 10px;
 
 
@@ -195,7 +334,7 @@ main div {
     font-size: 50px;
     padding-top: 100px;
     text-align: center;
-    color: blue;
+    color:rgb(6, 6, 114);
 }
 
 .twp p {
