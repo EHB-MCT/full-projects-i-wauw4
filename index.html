@@ -45,35 +45,136 @@
         <div class="kollom">
             <h1>Eerder samengewerkt met</h1>
         </div>
-        <ul>
-            <li> <button onclick="overheid()">Overheid</button></li>
-            <p id="overheid"></p>
-            <li> <button onclick="bedrijven()">Bedrijven</button></li>
-            <p id="bedrijven"></p>
-            <li> <button onclick="organisaties()">Organisaties</button></li>
-            <p id="organisaties"></p>
-            <li> <button onclick="festival()">Festivals</button></li>
-            <p id="festival"></p>
-            <li> <button onclick="cultuur()">Culturele centra & Musea</button></li>
-            <p id="cultuur"></p>
-            <li> <button onclick="centrum()">Gemeenschapcentrums</button></li>
-            <p id="centrum"></p>
-            <li> <button onclick="instelling()">Architecturale instellingen</button></li>
-            <p id="instelling"></p>
-            <li> <button onclick="scholen()">Scholen</button></li>
-            <p id="scholen"></p>
-            <li> <button onclick="wijkcontracten()">Wijkcontracten</button></li>
-            <p id="wijkcontracten"></p>
-            <li> <button onclick="architecten()">Architecten & landschaparchitecten</button></li>
-            <p id="architecten"></p>
-        </ul>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Overheid')">Overheid</button>
+            <button class="tablinks" onclick="openCity(event, 'Bedrijven')">Bedrijven</button>
+            <button class="tablinks" onclick="openCity(event, 'Organisaties')">Organisaties</button>
+            <button class="tablinks" onclick="openCity(event, 'Festivals')">Festivals</button>
+            <button class="tablinks" onclick="openCity(event, 'Culturele-centra-Musea')">Culturele centra &
+                Musea</button>
+            <button class="tablinks" onclick="openCity(event, 'Gemeenschapcentrums')"> Gemeenschapcentrums </button>
+            <button class="tablinks" onclick="openCity(event, 'Architecturale-instellingen')"> Architecturale
+                instellingen </button>
+            <button class="tablinks" onclick="openCity(event, 'Scholen')">Scholen </button>
+            <button class="tablinks" onclick="openCity(event, 'Wijkcontracten')"> Wijkcontracten </button>
+            <button class="tablinks" onclick="openCity(event, 'Architecten-landschaparchitecten')">Architecten &
+                landschaparchitecten </button>
+        </div>
+
+        <div id="Overheid" class="tabcontent">
+            <ul>
+                <li>Brussels mobiliteit</li>
+                <li> Vlaamse Overheid departement omgeving</li>
+                <li>Gemeente Dilbeek</li>
+                <li>leefmilieu Brussel</li>
+            </ul>
+        </div>
+
+        <div id="Bedrijven" class="tabcontent">
+            <p>Zaventem Airport</p>
+        </div>
+
+        <div id="Organisaties" class="tabcontent">
+            <ul>
+                <li>VITO</li>
+                <li>UGENT</li>
+                <li>Gezinsbond</li>
+                <li>Leuven Mindgate</li>
+                <li>SOM</li>
+                <li>Havanza</li>
+                <li> Koren</li>
+                <li>Carki</li>
+                <li>Recyclart</li>
+                <li>COOP</li>
+                <li>Pronatura</li>
+                <li>Arib</li>
+                <li>TADA</li>
+            </ul>
+        </div>
+
+        <div id="Festivals" class="tabcontent">
+            <ul>
+                <li>Vijverfestival</li>
+                <li>Periferiafestival</li>
+                <li>StormOpKomst</li>
+                <li>Spot On Festival</li>
+                <li>Door to Door</li>
+                <li>Fablab</li>
+                <li>And & festival</li>
+                <li>How to Best Practice</li>
+            </ul>
+        </div>
+
+        <div id="Culturele-centra-Musea" class="tabcontent">
+            <ul>
+                <li>Essegem</li>
+                <li>Destelheide</li>
+                <li>Muntpunt</li>
+            </ul>
+        </div>
+
+        <div id="Gemeenschapcentrums" class="tabcontent">
+            <ul>
+                <li>Bozar</li>
+                <li>CC Westrand</li>
+                <li>Z33</li>
+                <li>DeSingel</li>
+            </ul>
+        </div>
+
+        <div id="Architecturale-instellingen" class="tabcontent">
+            <ul>
+                <li>VAI</li>
+                <li>AWB</li>
+                <li>CIVA</li>
+            </ul>
+        </div>
+
+        <div id="Scholen" class="tabcontent">
+            <ul>
+                <li>de Kriebel</li>
+                <li>Jongslag</li>
+                <li>St-Lucas</li>
+            </ul>
+        </div>
+
+        <div id="Wijkcontracten" class="tabcontent">
+            <ul>
+                <li>DWC</li>
+                <li>CQD</li>
+                <li>Magritte</li>
+            </ul>
+        </div>
+
+        <div id="Architecten-landschaparchitecten" class="tabcontent">
+            <ul>
+                <li>Atelier ACT</li>
+                <li>Cakri, Kiss</li>
+                <li>Onkruid</li>
+                <li>Cvek-Rigby</li>
+                <li>Urban Species</li>
+                <li>B-ILD</li>
+                <li>Bogdan-Vanbroeck</li>
+                <li>Tweestorm</li>
+                <li> Xavier De Geyter</li>
+                <li>Landscape</li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+
     </footer>
 
     <main>
-        <img src="images/logowauw.png">
-        <p>Volg ons via sociale media</p>
-        <h1>Mail : wauw.workshops@gmail.com</h1>
-        <h1>Nummer : 04 111 11 11</h1>
+        <div>
+            <img src="images/logowauw.png">
+        </div>
+        <div>
+            <p>Volg ons via sociale media</p>
+        </div>
 
     </main>
 
