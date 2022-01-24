@@ -610,3 +610,12 @@ h1 {
 }
 
 /*TOT HIER gewerkt door NABRAS*/
+
+
+/* Agenda na feedback (Cedric)*/
+
+.legende {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
