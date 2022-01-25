@@ -115,10 +115,6 @@ header .middel .tekst p {
     font-size: 20px;
 }
 
-footer {
-    padding: 0px 20px;
-}
-
 footer h1 {
     font-size: 50px;
     margin-bottom: 50px;
@@ -162,11 +158,8 @@ footer h1 {
 
 }
 
-main {
-    padding: 10px;
-}
-
 main div {
+    margin-top: 100px;
     text-align: center;
 }
 
