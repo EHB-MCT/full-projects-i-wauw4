@@ -33,7 +33,7 @@ nav .list ul li a {
 }
 
 nav .list ul li a:hover {
-    color: blue;
+    color: #33469b;
     font-size: 25px;
 }
 
@@ -45,8 +45,6 @@ nav .list ul li a:hover {
     margin-bottom: 16px;
     padding: 0 50px;
 }
-
-
 
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
@@ -119,15 +117,9 @@ header .middel .tekst p {
     font-size: 20px;
 }
 
-footer {
-    padding: 0px 20px;
-}
-
 footer h1 {
     font-size: 50px;
     margin-bottom: 50px;
-    border-bottom: black;
-    border-style: dashed;
     text-align: center;
     font-family: 'Manrope', sans-serif;
 }
@@ -135,7 +127,7 @@ footer h1 {
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #33469b;
 }
 
 .tab button {
@@ -148,15 +140,16 @@ footer h1 {
     transition: 0.3s;
     font-size: 17px;
     font-size: 15px;
+    color: white;
 }
 
 .tab button:hover {
-    color: blue;
+    color: white;
     font-size: 10px;
 }
 
 .tab button.active {
-    background-color: #ccc;
+    background-color: rgba(173, 216, 230, 0.192);
 }
 
 .tabcontent {
@@ -164,13 +157,11 @@ footer h1 {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-}
 
-main {
-    padding: 10px;
 }
 
 main div {
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -183,10 +174,18 @@ main h1 {
 
 .icon {
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.068);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
 }
 
 main .icon p {
     margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+main .icon h1{
+    padding-top: 10px;
 }
 
 .overlay {
@@ -194,7 +193,7 @@ main .icon p {
     top: 0%;
     bottom: 0%;
     right: 0%;
-    background: rgb(242, 242, 242);
+    background: rgb(255, 255, 255);
     position: fixed;
     z-index: 10;
 
@@ -206,7 +205,6 @@ main .icon p {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 @keyframes delay {
@@ -217,7 +215,6 @@ main .icon p {
     to {
         transform: translateY(-100%);
     }
-
 }
 
 * {
@@ -442,6 +439,11 @@ h1 {
     max-width: 80rem;
 }
 
+.wrapper p {
+    font-weight: 700;
+    color: #ffffff;
+}
+
 .cols {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -451,7 +453,23 @@ h1 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
+
+.colss {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: black;
+    border-style: solid;
+}
+
 
 .col {
     width: calc(25% - 2rem);
@@ -489,9 +507,9 @@ h1 {
 
 .back {
     background: #cedce7;
-    background: -webkit-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-    background: -o-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-    background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+    background: -webkit-linear-gradient(45deg, #cedce7 0%, blue 100%);
+    background: -o-linear-gradient(45deg, #cedce7 0%, blue 100%);
+    background: linear-gradient(45deg, #cedce7 0%, blue 100%);
 }
 
 .front:after {
@@ -503,8 +521,7 @@ h1 {
     height: 100%;
     content: '';
     display: block;
-    opacity: .2;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 10px;
@@ -615,6 +632,7 @@ h1 {
 }
 
 /*TOT HIER gewerkt door NABRAS*/
+<<<<<<< HEAD
 
 .filter {
     width: 100%;
@@ -622,4 +640,37 @@ h1 {
     padding-top: 20px;
     display: flex;
     justify-content: center;
+=======
+/* Agenda na feedback (Cedric)*/
+
+.legende {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.examples {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 80rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.examples div {
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.examples p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.examples img {
+    margin-left: 5px;
+    height: 200px;
+>>>>>>> a42b9bd57a1621860fcc7dd3b1573eb225df692d
 }
