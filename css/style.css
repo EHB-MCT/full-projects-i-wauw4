@@ -17,12 +17,14 @@ nav .list img {
 nav .list ul li {
     display: inline-block;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 60px;
     padding-right: 20px;
 }
 
 nav .list ul {
-    padding-left: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 nav .list ul li a {
@@ -309,8 +311,9 @@ main .icon p {
 
 /* The actual content */
 .content {
+    color: white;
     padding: 20px 30px;
-    background-color: #33469b48;
+    background-color: #33469b;
     position: relative;
     border-radius: 6px;
 }
@@ -413,7 +416,7 @@ div.desc {
     text-align: center;
 }
 
-.twp h2{
+.twp h2 {
     font-size: 30px;
 }
 
@@ -613,11 +616,10 @@ h1 {
 
 /*TOT HIER gewerkt door NABRAS*/
 
-
-/* Agenda na feedback (Cedric)*/
-
-.legende {
+.filter {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
