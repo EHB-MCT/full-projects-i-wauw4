@@ -184,7 +184,7 @@ main .icon p {
     padding-bottom: 10px;
 }
 
-main .icon h1{
+main .icon h1 {
     padding-top: 10px;
 }
 
@@ -632,24 +632,17 @@ h1 {
 }
 
 /*TOT HIER gewerkt door NABRAS*/
-<<<<<<< HEAD
 
+/* Agenda na feedback (Cedric)*/
 .filter {
     width: 100%;
     margin: 0 auto;
     padding-top: 20px;
     display: flex;
     justify-content: center;
-=======
-/* Agenda na feedback (Cedric)*/
-
-.legende {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
 }
 
-.examples {
+===========================.examples {
     width: 90%;
     margin: 0 auto;
     max-width: 80rem;
@@ -672,5 +665,5 @@ h1 {
 .examples img {
     margin-left: 5px;
     height: 200px;
->>>>>>> a42b9bd57a1621860fcc7dd3b1573eb225df692d
+    >>>>>>>a42b9bd57a1621860fcc7dd3b1573eb225df692d
 }
