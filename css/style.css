@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
     background-image: url(../images/hip-square.png) no-repeat;
     background-attachment: fixed;
 }
@@ -77,6 +77,15 @@ nav .list ul li a:hover {
     display: table;
 }
 
+.rij img {
+    height: 370px;
+}
+
+.rij h2 {
+    text-align: center;
+    padding: 10px;
+}
+
 .title {
     color: grey;
     text-align: center;
@@ -87,7 +96,7 @@ nav .list ul li a:hover {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 640px;
+    height: 520px;
     margin-bottom: 50px;
 
 }
@@ -95,15 +104,17 @@ nav .list ul li a:hover {
 header .middel .tekst h1 {
     color: #fff;
     text-align: left;
-    padding: 20px 150px;
-    font-size: 50px
+    padding: 15px 250px 1px;
+    font-size: 50px;
+    font-family: 'Manrope', sans-serif;
 }
 
 header .middel .tekst p {
-    color: #fff;
+    color: white;
     text-align: left;
-    padding-left: 150px;
-    line-height: 20px;
+    padding-left: 250px;
+    line-height: 25px;
+    font-size: 20px;
 }
 
 footer {
@@ -116,6 +127,7 @@ footer h1 {
     border-bottom: black;
     border-style: dashed;
     text-align: center;
+    font-family: 'Manrope', sans-serif;
 }
 
 .tab {
@@ -153,7 +165,6 @@ footer h1 {
 }
 
 main {
-    margin-top: 50px;
     padding: 10px;
 }
 
@@ -165,6 +176,7 @@ main h1 {
     text-align: center;
     font-size: 25px;
     margin-bottom: 10px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .icon {
@@ -342,20 +354,6 @@ main .icon p {
 
 /*process PAGINA*/
 
-.icons img {
-    padding-top: 5%;
-    padding-left: 100px;
-    width: 10%;
-
-}
-
-.textIcons h2 {
-    display: inline-block;
-    padding-bottom: 20px;
-    padding-left: 100px;
-    font-size: 20px;
-}
-
 .twp h2 {
     padding: 20px;
 }
@@ -411,8 +409,12 @@ div.desc {
     text-align: center;
 }
 
-.center {
+.twp {
     text-align: center;
+}
+
+.twp h2{
+    font-size: 30px;
 }
 
 * {
