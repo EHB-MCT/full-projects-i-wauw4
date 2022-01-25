@@ -273,7 +273,7 @@ main .icon p {
     right: 30px;
     border: medium solid #bcbab5;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #bcbab5;
+    border-color: transparent transparent transparent #33469b;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -287,7 +287,7 @@ main .icon p {
     left: 30px;
     border: medium solid #bcbab5;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #bcbab5 transparent transparent;
+    border-color: transparent #33469b transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -298,7 +298,7 @@ main .icon p {
 /* The actual content */
 .content {
     padding: 20px 30px;
-    background-color: #bcbab579;
+    background-color: #33469b48;
     position: relative;
     border-radius: 6px;
 }
