@@ -129,7 +129,7 @@ footer h1 {
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #33469b;
 }
 
 .tab button {
@@ -142,15 +142,16 @@ footer h1 {
     transition: 0.3s;
     font-size: 17px;
     font-size: 15px;
+    color: white;
 }
 
 .tab button:hover {
-    color: #33469b;
+    color: white;
     font-size: 10px;
 }
 
 .tab button.active {
-    background-color: #ccc;
+    background-color: rgba(173, 216, 230, 0.192);
 }
 
 .tabcontent {
@@ -158,6 +159,7 @@ footer h1 {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+
 }
 
 main {
@@ -177,10 +179,18 @@ main h1 {
 
 .icon {
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.068);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
 }
 
 main .icon p {
     margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+main .icon h1{
+    padding-top: 10px;
 }
 
 .overlay {
@@ -188,7 +198,7 @@ main .icon p {
     top: 0%;
     bottom: 0%;
     right: 0%;
-    background: rgb(242, 242, 242);
+    background: rgb(255, 255, 255);
     position: fixed;
     z-index: 10;
 
@@ -433,7 +443,24 @@ h1 {
     max-width: 80rem;
 }
 
+.wrapper p {
+    font-weight: 700;
+    color: #ffffff;
+}
+
 .cols {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.colss {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -446,6 +473,7 @@ h1 {
     border-bottom: black;
     border-style: solid;
 }
+
 
 .col {
     width: calc(25% - 2rem);
