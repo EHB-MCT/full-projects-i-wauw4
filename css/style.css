@@ -31,7 +31,7 @@ nav .list ul li a {
 }
 
 nav .list ul li a:hover {
-    color: blue;
+    color: #33469b;
     font-size: 25px;
 }
 
@@ -43,8 +43,6 @@ nav .list ul li a:hover {
     margin-bottom: 16px;
     padding: 0 50px;
 }
-
-
 
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
@@ -124,8 +122,6 @@ footer {
 footer h1 {
     font-size: 50px;
     margin-bottom: 50px;
-    border-bottom: black;
-    border-style: dashed;
     text-align: center;
     font-family: 'Manrope', sans-serif;
 }
@@ -149,7 +145,7 @@ footer h1 {
 }
 
 .tab button:hover {
-    color: blue;
+    color: #33469b;
     font-size: 10px;
 }
 
@@ -204,7 +200,6 @@ main .icon p {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 @keyframes delay {
@@ -215,7 +210,6 @@ main .icon p {
     to {
         transform: translateY(-100%);
     }
-
 }
 
 * {
@@ -413,7 +407,7 @@ div.desc {
     text-align: center;
 }
 
-.twp h2{
+.twp h2 {
     font-size: 30px;
 }
 
@@ -448,6 +442,9 @@ h1 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: black;
+    border-style: solid;
 }
 
 .col {
@@ -486,9 +483,9 @@ h1 {
 
 .back {
     background: #cedce7;
-    background: -webkit-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-    background: -o-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-    background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+    background: -webkit-linear-gradient(45deg, #cedce7 0%, blue 100%);
+    background: -o-linear-gradient(45deg, #cedce7 0%, blue 100%);
+    background: linear-gradient(45deg, #cedce7 0%, blue 100%);
 }
 
 .front:after {
@@ -500,8 +497,7 @@ h1 {
     height: 100%;
     content: '';
     display: block;
-    opacity: .2;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 10px;
@@ -612,12 +608,35 @@ h1 {
 }
 
 /*TOT HIER gewerkt door NABRAS*/
-
-
 /* Agenda na feedback (Cedric)*/
 
 .legende {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+.examples {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 80rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.examples div {
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.examples p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.examples img {
+    margin-left: 5px;
+    height: 200px;
 }
