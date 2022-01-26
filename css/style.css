@@ -716,7 +716,6 @@ input[type=password]:focus {
     outline: none;
 }
 
-/* Set a style for the submit button */
 .btn {
     background-color: #33469b;
     color: white;
