@@ -6,18 +6,17 @@ html {
 
 body {
     font-family: 'Manrope', sans-serif;
-    background-image: url(../images/hip-square.png) no-repeat;
     background-attachment: fixed;
 }
 
 nav .list img {
     padding-top: 30px;
+    position:static;
 }
 
 nav .list ul li {
     display: inline-block;
     font-size: 20px;
-    line-height: 50px;
     padding-right: 20px;
 }
 
@@ -25,11 +24,13 @@ nav .list ul {
     width: 100%;
     display: flex;
     justify-content: center;
+    line-height: 175px;
 }
 
 nav .list ul li a {
     text-decoration: none;
     color: black;
+
 }
 
 nav .list ul li a:hover {
@@ -92,7 +93,7 @@ nav .list ul li a:hover {
 }
 
 .middel {
-    background: url("../images/lepels.jpg") no-repeat;
+    background: url("../images/index/cover.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -356,10 +357,12 @@ main .icon h1 {
 
 .twp h2 {
     padding: 20px;
+    text-align: center;
 }
 
 .twp p {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 /* proces Nicolas*/
@@ -424,13 +427,9 @@ div.desc {
     box-sizing: border-box;
 }
 
-h1 {
-    font-size: 2.5rem;
-    font-family: 'Montserrat';
-    font-weight: normal;
-    color: #444;
+.wrapper h1 {
+    font-size: 25px;
     text-align: center;
-    margin: 2rem 0;
 }
 
 .wrapper {
@@ -642,7 +641,7 @@ h1 {
     justify-content: center;
 }
 
-===========================.examples {
+.examples {
     width: 90%;
     margin: 0 auto;
     max-width: 80rem;
@@ -665,5 +664,4 @@ h1 {
 .examples img {
     margin-left: 5px;
     height: 200px;
-    >>>>>>>a42b9bd57a1621860fcc7dd3b1573eb225df692d
 }
