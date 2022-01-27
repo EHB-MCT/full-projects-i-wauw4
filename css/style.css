@@ -731,7 +731,6 @@ input[type=password]:focus {
 
 .btn:hover {
     opacity: 1;
-<<<<<<< HEAD
 }
 
 .flex-wrapper {
@@ -744,11 +743,9 @@ input[type=password]:focus {
     margin-top: 20px;
 }
 
-.balk {
+/*.balk {
     position: fixed;
     height: 70px;
     width: 100%;
-    background-color: black;
-=======
->>>>>>> 63f91b3e253d2ea73921765a5ede833b811fe304
+    background-color: white;
 }
