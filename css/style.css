@@ -636,11 +636,10 @@ div.desc {
 
 /*TOT HIER gewerkt door NABRAS*/
 
-/* Agenda na feedback (Cedric)*/
+/* Agenda na feedback*/
 .filter {
     width: 100%;
     margin: 0 auto;
-    padding-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -732,6 +731,7 @@ input[type=password]:focus {
 
 .btn:hover {
     opacity: 1;
+<<<<<<< HEAD
 }
 
 .flex-wrapper {
@@ -749,4 +749,6 @@ input[type=password]:focus {
     height: 70px;
     width: 100%;
     background-color: black;
+=======
+>>>>>>> 63f91b3e253d2ea73921765a5ede833b811fe304
 }
