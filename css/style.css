@@ -632,11 +632,10 @@ div.desc {
 
 /*TOT HIER gewerkt door NABRAS*/
 
-/* Agenda na feedback (Cedric)*/
+/* Agenda na feedback*/
 .filter {
     width: 100%;
     margin: 0 auto;
-    padding-top: 20px;
     display: flex;
     justify-content: center;
 }
