@@ -102,24 +102,16 @@ nav .list ul li a:hover {
     margin-bottom: 50px;
 }
 
-header .middel .tekst h1 {
-    color: #fff;
-    text-align: left;
-    padding: 15px 250px;
-    font-size: 50px;
-    font-family: 'Manrope', sans-serif;
-    background-color: rgba(0, 0, 0, 0.164);
-}
-
 header .middel .tekst p {
     color: white;
     text-align: left;
     padding-left: 250px;
-    padding-bottom: 520px;
+    padding-bottom: 400px;
     line-height: 25px;
     font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.164);
+    background-color: rgba(0, 0, 0, 0.315);
     font-weight: 700;
+    padding-top: 20px;
 }
 
 footer h1 {
@@ -434,17 +426,14 @@ div.desc {
 .wrapper h1 {
     font-size: 25px;
     text-align: center;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 .wrapper {
     width: 90%;
     margin: 0 auto;
     max-width: 80rem;
-}
-
-.wrapper p {
-    font-weight: 700;
-    color: #ffffff;
 }
 
 .cols {
@@ -459,8 +448,8 @@ div.desc {
     margin-bottom: 20px;
 }
 
-.cols img{
-    width: 20%;
+.inner p {
+    font-size: 10px;
 }
 
 .colss {
@@ -594,24 +583,6 @@ div.desc {
     transform-style: preserve-3d;
 }
 
-.front .inner p {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    position: relative;
-}
-
-.front .inner p:after {
-    content: '';
-    width: 4rem;
-    height: 2px;
-    position: absolute;
-    background: #C6D4DF;
-    display: block;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    bottom: -.75rem;
-}
 
 .front .inner span {
     color: rgba(255, 255, 255, 0.7);
@@ -746,23 +717,4 @@ input[type=password]:focus {
     width: 33%;
     margin-top: 20px;
     padding-left: 10px;
-}
-
-.balk {
-    position: fixed;
-    height: 50px;
-    width: 100%;
-    bottom: 0;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    padding-left: 5px;
-}
-
-.balk p {
-    color: black;
-}
-
-.balk img {
-    width: 2%;
 }
