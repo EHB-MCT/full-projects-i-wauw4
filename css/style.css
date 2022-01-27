@@ -731,3 +731,16 @@ input[type=password]:focus {
     margin-top: 20px;
     padding-left: 10px;
 }
+.wrapper h4 {
+
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.overlay h5 {
+    font-size: 80px;
+    margin-left: 10px;
+}
