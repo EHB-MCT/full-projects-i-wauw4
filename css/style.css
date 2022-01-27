@@ -251,6 +251,15 @@ main .icon h1 {
     margin-left: -3px;
 }
 
+.content h2 {
+    padding-bottom: 10px;
+    font-weight: 1000;
+}
+
+.content a {
+    color: "white";
+}
+
 /* Container around content */
 .time {
     padding: 10px 40px;
@@ -731,6 +740,7 @@ input[type=password]:focus {
     margin-top: 20px;
     padding-left: 10px;
 }
+
 .wrapper h4 {
 
     font-size: 25px;
