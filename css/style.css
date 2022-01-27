@@ -741,11 +741,24 @@ input[type=password]:focus {
 .flex-wrapper div {
     width: 33%;
     margin-top: 20px;
+    padding-left: 10px;
 }
 
-/*.balk {
+.balk {
     position: fixed;
     height: 70px;
     width: 100%;
+    bottom: 0;
     background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.balk p {
+    color: black;
+}
+
+.balk img {
+    width: 10%;
 }
