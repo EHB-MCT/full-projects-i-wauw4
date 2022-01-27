@@ -10,8 +10,12 @@ body {
 }
 
 nav .list img {
-    padding-top: 30px;
+
     position: static;
+}
+
+nav {
+    padding-top: 30px;
 }
 
 nav .list ul li {
@@ -731,6 +735,7 @@ input[type=password]:focus {
     margin-top: 20px;
     padding-left: 10px;
 }
+
 .wrapper h4 {
 
     font-size: 25px;
@@ -744,3 +749,11 @@ input[type=password]:focus {
     font-size: 80px;
     margin-left: 10px;
 }
+
+
+.callme a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #33469b;
+    }
+
