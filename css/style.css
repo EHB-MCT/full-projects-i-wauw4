@@ -28,6 +28,14 @@ nav .list ul {
     padding-bottom: 20px;
 }
 
+.index li a {
+    border-bottom: solid #33469b;
+}
+
+.agenda li a {
+    border-bottom: solid #33469b;
+}
+
 nav .list ul li a {
     text-decoration: none;
     color: black;
@@ -35,8 +43,6 @@ nav .list ul li a {
 
 nav .list ul li a:hover {
     color: #33469b;
-    text-decoration: underline;
-    text-underline-position: below;
 }
 
 /* team*/
@@ -449,7 +455,7 @@ div.desc {
 }
 
 .inner p {
-    font-size: 10px;
+    font-size: 25px;
 }
 
 .colss {
