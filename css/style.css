@@ -197,6 +197,23 @@ main .icon h1 {
     padding-top: 30px;
 }
 
+.icons {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.068);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+
+main .icons p {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+main .icons h1 {
+    padding-top: 30px;
+    margin-top: 150px;
+}
+
 .overlay {
     left: 0%;
     top: 0%;
@@ -256,7 +273,7 @@ main .icon h1 {
 }
 
 .content a {
-    color: "white";
+    color: white;
 }
 
 /* Container around content */
@@ -686,7 +703,7 @@ div.desc {
 }
 
 .tuto h1 {
-    align-items: center;
+padding-left: 100px;
 }
 
 /* Add styles to the form container */
@@ -697,6 +714,10 @@ div.desc {
     max-width: 300px;
     padding: 16px;
     background-color: white;
+}
+
+.tuto b{
+    padding-left: 5px;
 }
 
 /* Full-width input fields */
@@ -741,12 +762,14 @@ input[type=paswoord]:focus {
 }
 
 .wrapper h4 {
-
     font-size: 25px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
 
+.spatie{
+    padding-top: 50px;
 }
 
 .overlay h5 {
