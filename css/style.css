@@ -65,7 +65,7 @@ nav .list ul li a:hover {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 600px;
+    height: 500px;
     margin-bottom: 50px;
 
 }
@@ -83,7 +83,7 @@ nav .list ul li a:hover {
     margin-top: 50px;
     margin-bottom: 40px;
     margin-left: 20px;
-   
+
 }
 
 .kader li {
@@ -149,7 +149,7 @@ nav .list ul li a:hover {
     padding: 10px;
 }
 
-.rij{
+.rij {
     padding-bottom: 300px;
 }
 
@@ -549,7 +549,6 @@ div.desc {
 .back {
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
     background-position: center;
     -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
     transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -561,7 +560,6 @@ div.desc {
     text-align: center;
     min-height: 280px;
     height: auto;
-    border-radius: 10px;
     color: #fff;
     font-size: 1.5rem;
 }
@@ -585,7 +583,6 @@ div.desc {
     background-color: rgba(0, 0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border-radius: 10px;
 }
 
 .container:hover .front,
