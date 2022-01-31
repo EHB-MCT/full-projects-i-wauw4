@@ -131,8 +131,6 @@ nav .list ul li a:hover {
 
 .zuil {
     float: left;
-    
-    
 }
 
 /* Some left and right padding inside the container */
@@ -151,14 +149,14 @@ nav .list ul li a:hover {
     padding: 10px;
 }
 
+.rij{
+    padding-bottom: 300px;
+}
+
 .title {
     color: grey;
     text-align: center;
 }
-
-
-
-
 
 footer h1 {
     font-size: 50px;
