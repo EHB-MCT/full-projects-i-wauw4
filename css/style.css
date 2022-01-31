@@ -570,9 +570,9 @@ div.desc {
 
 .back {
     background: #cedce7;
-    background: -webkit-linear-gradient(45deg, #cedce7 0%, blue 100%);
-    background: -o-linear-gradient(45deg, #cedce7 0%, blue 100%);
-    background: linear-gradient(45deg, #cedce7 0%, blue 100%);
+    background: -webkit-linear-gradient(45deg, #33469b52 0%, #33469b52 100%);
+    background: -o-linear-gradient(45deg, #33469b52 0%, #33469b52 100%);
+    background: linear-gradient(45deg, #33469b52 0%, #33469b52 100%);
 }
 
 .front:after {
