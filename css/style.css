@@ -575,3 +575,43 @@ div.desc {
 
 
 /*TOT HIER gewerkt door NABRAS*/
+
+
+
+.icon{
+    padding-left: 30%;
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.icon h2{
+    font-size: 20px;
+    padding-left: 2%;
+    
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    align-items: center;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }

@@ -7,6 +7,7 @@
     <title>WAUW</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script> src="index.js"</script>
 </head>
 <body>
     <nav>
@@ -24,6 +25,17 @@
         </div>
     </nav>
 
+    <div class="icon">
+        <img src="images/head.png" width="80px" height="auto">
+        <h2>THINK</h2>
+
+        <img src="images/brickwall.png" width="80px" height="auto">
+        <h2>WORK</h2>
+
+        <img src="images/skyscraper.png" width="80px" height="auto">
+        <h2>PLAY</h2>
+    </div>
+
 
     <div class="twp">
         <h2>Wat is THINK WORK PLAY?</h2>
@@ -34,32 +46,39 @@
         </p>
     </div>
 
-    <div class="think">
-        <h2>
-            THINK
-        </h2>
-        <img src="images/think 01.PNG">
-        <img src="images/think 02.PNG">
-        <img src="images/think 03.PNG">
-    </div>
+    <div class="gallery">
+        <a target="_blank" href="images/think 01.PNG">
+          <img src="images/think 01.PNG" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">think</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="images/work 01.PNG">
+          <img src="images/work 01.PNG" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">work</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="images/play 01.PNG">
+          <img src="images/play 01.PNG" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Play</div>
+      </div>
+      
+      
+      </div>
 
-    <div class="work">
-        <h2>
-            WORK
-        </h2>
-        <img src="images/work 01.PNG" >
-        <img src="images/work 04.PNG" >
-        <img src="images/work 03.PNG" >
-    </div>
 
-    <div class="play">
-        <h2>PLAY
 
-        </h2>
-        <img src="images/think 01.PNG">
-        <img src="images/think 02.PNG">
-        <img src="images/think 03.PNG">
-    </div>
+      <form class="passform" action="index.html" onsubmit="return passcheck()">
+        <h1>Type password</h1>
+        password:<input type="password" required id="pass1">
+        <input type="submit"> 
+      </form>
+ 
+  
 
   
 </body>
