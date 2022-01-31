@@ -703,7 +703,7 @@ div.desc {
 }
 
 .tuto h1 {
-padding-left: 100px;
+    padding-left: 100px;
 }
 
 /* Add styles to the form container */
@@ -716,7 +716,7 @@ padding-left: 100px;
     background-color: white;
 }
 
-.tuto b{
+.tuto b {
     padding-left: 5px;
 }
 
@@ -768,7 +768,7 @@ input[type=paswoord]:focus {
     margin-bottom: 20px;
 }
 
-.spatie{
+.spatie {
     padding-top: 50px;
 }
 
