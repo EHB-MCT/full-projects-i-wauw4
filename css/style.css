@@ -230,9 +230,9 @@ main div {
 /* PROCES*/
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .twp {
-    float: left;
+    display: flex;
+    align-items: center;
     width: 33.33%;
-    padding: 5px;
     padding-bottom: 50px;
 }
 
@@ -240,7 +240,7 @@ main div {
 .thinkworkplay::after {
 
     clear: both;
-    display: table;
+    display: flex;
 }
 
 
@@ -917,12 +917,83 @@ input[type=paswoord]:focus {
     height: 100%;
 }
 
-.callme a {
-    font-size: 25px;
-    padding-left: 20px;
-    text-decoration: none;
-    color: #33469b;
+h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* The Modal (background) */
 .modal {
