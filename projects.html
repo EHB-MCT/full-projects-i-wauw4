@@ -29,19 +29,20 @@
     </div>
   </nav>
 
-  <div id="myBtnContainer">
+  <div class="titel">
+    <h1>Onze Projecten</h1>
+  </div>
+
+  <div id="myBtnContainer" class="ai">
     <button class="btm active" onclick="filterSelection('all')">alles</button>
-    <button class="btm active" onclick="filterSelection('volw')">volwassenen</button>
-    <button class="btm active" onclick="filterSelection('kind')">kinderen</button>
-    <button class="btm active" onclick="filterSelection('mix')">mix</button>
+    <button class="btm" onclick="filterSelection('volw')">volwassenen</button>
+    <button class="btm" onclick="filterSelection('kind')">kinderen</button>
+    <button class="btm" onclick="filterSelection('mix')">mix</button>
   </div>
 
   <!--https://codepen.io/nicolaspavlotsky/pen/wqGgLO-->
   <div class="all">
     <div class="wrapper">
-      <div class="titel">
-        <h1>Onze Projecten</h1>
-      </div>
       <div class="cols">
         <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
           <div class="container">

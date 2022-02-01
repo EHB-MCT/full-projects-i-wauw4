@@ -102,16 +102,18 @@ nav .list ul li a:hover {
     margin-bottom: 50px;
 }
 
-
-
 .tit h1 {
     text-align: center;
     font-size: 35px;
     font-family: 'Manrope', sans-serif;
 }
 
-.all .wrapper .titel h1 {
+.titel h1 {
     color: black;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
 }
 
 .visitekaart h2 {
@@ -125,8 +127,6 @@ nav .list ul li a:hover {
 }
 
 .rij {
-    padding-bottom: 300px;
-
     margin: 100px;
 
 }
@@ -149,9 +149,15 @@ footer h1 {
     background-color: #33469b;
 }
 
+.ai {
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 .tab button {
     background-color: inherit;
-    float: left;
     border: none;
     outline: none;
     cursor: pointer;
@@ -549,17 +555,11 @@ div.desc {
     box-sizing: border-box;
 }
 
-.wrapper h1 {
-    font-size: 25px;
-    text-align: center;
-    font-weight: 700;
-    color: white;
-}
-
 .wrapper {
     width: 90%;
     margin: 0 auto;
     max-width: 80rem;
+    padding-bottom: 150px;
 }
 
 .cols {
@@ -1030,10 +1030,6 @@ input[type=paswoord]:focus {
 .btm.active {
     background-color: #33469b;
     color: white;
-}
-
-.myBtnContainer {
-    align-items: center;
 }
 
 /* voor buttons*/
