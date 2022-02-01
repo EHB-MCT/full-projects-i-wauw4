@@ -10,19 +10,14 @@ body {
 }
 
 nav .list img {
-
     position: static;
 }
-
-
 
 nav .list ul li {
     display: inline-block;
     font-size: 20px;
     padding-right: 20px;
     margin-top: 10px;
-
-
 }
 
 nav .list ul {
@@ -38,7 +33,6 @@ nav .list ul {
 
 .index li a {
     border-bottom: solid #33469b;
-
 }
 
 .agenda li a {
@@ -132,12 +126,9 @@ nav .list ul li a:hover {
 
 
 .zuil {
-
     float: left;
     margin: 10px;
-
 }
-
 
 .visitekaart h2 {
     text-align: center;
@@ -331,8 +322,6 @@ main .icons p {
     margin-top: 10px;
     padding-bottom: 10px;
 }
-
-icon a {}
 
 main .icons h1 {
     padding-top: 30px;
@@ -934,77 +923,6 @@ h2 {
     padding-top: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* The Modal (background) */
 .modal {
     display: none;
@@ -1067,7 +985,6 @@ h2 {
 
 .popup {
     font-size: 25px;
-    margin-left: 75px;
     background-color: #33469b;
     color: #ffffff;
     padding: 10px;
@@ -1100,6 +1017,79 @@ h2 {
 }
 
 .btm.active {
-    background-color: #666;
+    background-color: #33469b;
     color: white;
+}
+
+.myBtnContainer {
+    align-items: center;
+}
+
+/* voor buttons*/
+.tuto {
+    align-items: center;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgb(224, 218, 218);
+}
+
+.tuto b {
+    padding-left: 5px;
+}
+
+input[type=text],
+input[type=paswoord] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+
+}
+
+input[type=text]:focus,
+input[type=paswoord]:focus {
+    background-color: grey;
+    outline: none;
+
+}
+
+.btn {
+    background-color: #33469b;
+    color: white;
+    padding: 16px 20px;
+
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/*background photo*/
+.tutsbg {
+    background: url("../images/projects/babeltoren-school.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+/*text tutorials*/
+.tutotext h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.tutotext p {
+    text-align: center;
+    padding-bottom: 20px;
 }
