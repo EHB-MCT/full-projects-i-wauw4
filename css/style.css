@@ -10,19 +10,14 @@ body {
 }
 
 nav .list img {
-
     position: static;
 }
-
-
 
 nav .list ul li {
     display: inline-block;
     font-size: 20px;
     padding-right: 20px;
     margin-top: 10px;
-
-
 }
 
 nav .list ul {
@@ -30,24 +25,9 @@ nav .list ul {
     display: flex;
     justify-content: right;
     align-items: right;
-
-
 }
 
-.index li a {
-    border-bottom: solid #33469b;
-
-}
-
-.agenda li a {
-    border-bottom: solid #33469b;
-}
-
-.proces li a {
-    border-bottom: solid #33469b;
-}
-
-.projects li a {
+.line li a {
     border-bottom: solid #33469b;
 }
 
@@ -128,12 +108,16 @@ nav .list ul li a:hover {
     text-align: center;
     font-size: 35px;
     font-family: 'Manrope', sans-serif;
-    
-    
+
+
 
 }
 
 
+.zuil {
+    float: left;
+    margin: 10px;
+}
 
 .visitekaart h2 {
     text-align: center;
@@ -198,7 +182,6 @@ footer h1 {
 main div {
     margin-top: 20px;
     text-align: center;
-    justify-content: center;
 }
 
 .card {
@@ -208,8 +191,6 @@ main div {
     padding-bottom: 50px;
     flex-direction: column;
 }
-
-
 
 .visitekaart h2 {
     text-align: center;
@@ -250,6 +231,7 @@ main div {
 
 
 .procestext {
+    font-size: 20px;
     float: left;
     width: 33.33%;
     padding: 5px;
@@ -296,19 +278,24 @@ main h1 {
 }
 
 main .icon p {
-    margin-top: 10px;
-    padding-bottom: 10px;
-
+    margin-top: 0px;
+    padding-bottom: 20px;
+    text-decoration-style: none;
 }
 
 main .icon h1 {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .icon h2 {
     font-size: 20px;
     padding-left: 2%;
 
+}
+
+.icon a {
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .icons {
@@ -322,6 +309,7 @@ main .icons p {
     margin-top: 10px;
     padding-bottom: 10px;
 }
+
 
 main .icons h1 {
     padding-top: 30px;
@@ -383,7 +371,6 @@ main .icons h1 {
 
 .content h2 {
     padding-bottom: 10px;
-    font-weight: 1000;
 }
 
 .content a {
@@ -916,84 +903,6 @@ input[type=paswoord]:focus {
     height: 100%;
 }
 
-h2 {
-    font-size: 35px;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* The Modal (background) */
 .modal {
     display: none;
@@ -1039,13 +948,15 @@ h2 {
     line-height: 30px;
     font-family: 'Manrope', sans-serif;
 }
+
 .modal-content li {
     font-size: 20px;
     line-height: 30px;
     font-family: 'Manrope', sans-serif;
 
 }
-.modal-content li  strong {
+
+.modal-content li strong {
     font-size: 25px;
     line-height: 30px;
     font-family: 'Manrope', sans-serif;
@@ -1083,7 +994,6 @@ h2 {
 
 .popup {
     font-size: 25px;
-    margin-left: 75px;
     background-color: #33469b;
     color: #ffffff;
     padding: 10px;
@@ -1123,6 +1033,91 @@ h2 {
 }
 
 .btm.active {
-    background-color: #666;
+    background-color: #33469b;
     color: white;
+}
+
+.myBtnContainer {
+    align-items: center;
+}
+
+/* voor buttons*/
+.log {
+    align-items: center;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgb(224, 218, 218);
+}
+
+.log b {
+    padding-left: 5px;
+}
+
+input[type=text],
+input[type=paswoord] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+
+}
+
+input[type=text]:focus,
+input[type=paswoord]:focus {
+    background-color: grey;
+    outline: none;
+
+}
+
+.login {
+    background-color: #33469b;
+    color: white;
+    padding: 16px 20px;
+
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+
+}
+
+.login:hover {
+    opacity: 1;
+}
+
+/*background photo*/
+.tutsbg {
+    background: url("../images/projects/babeltoren-school.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+/*text tutorials*/
+.logtext h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.logtext p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.log h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.proces-h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    text-align: center;
 }
