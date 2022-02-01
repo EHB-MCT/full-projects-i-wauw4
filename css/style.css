@@ -251,6 +251,7 @@ main div {
 
 
 .procestext {
+    font-size: 20px;
     float: left;
     width: 33.33%;
     padding: 5px;
@@ -297,19 +298,24 @@ main h1 {
 }
 
 main .icon p {
-    margin-top: 10px;
-    padding-bottom: 10px;
-
+    margin-top: 0px;
+    padding-bottom: 20px;
+    text-decoration-style: none;
 }
 
 main .icon h1 {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .icon h2 {
     font-size: 20px;
     padding-left: 2%;
 
+}
+
+.icon a {
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .icons {
@@ -323,6 +329,8 @@ main .icons p {
     margin-top: 10px;
     padding-bottom: 10px;
 }
+
+icon a {}
 
 main .icons h1 {
     padding-top: 30px;
@@ -918,7 +926,7 @@ input[type=paswoord]:focus {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 10px;
