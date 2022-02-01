@@ -25,7 +25,6 @@ nav .list ul {
     display: flex;
     justify-content: right;
     align-items: right;
-    margin-top: 200px;
 
 }
 
@@ -990,7 +989,7 @@ input[type=paswoord]:focus {
 .galerij img {
     align-content: center;
     width: 350px;
-    height: 350px;
+    height: 330px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -998,6 +997,7 @@ input[type=paswoord]:focus {
 }
 
 .galerij {
+    align-items: center;
     margin-left: 20px;
     margin-right: 20px;
 }
