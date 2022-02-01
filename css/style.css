@@ -11,13 +11,14 @@ body {
 
 nav .list img {
     position: static;
+    
 }
 
 nav .list ul li {
     display: inline-block;
     font-size: 20px;
-    padding-right: 20px;
-    margin-top: 10px;
+    padding-right: 17px;
+    margin-top: 40px;
 }
 
 nav .list ul {
@@ -25,6 +26,7 @@ nav .list ul {
     display: flex;
     justify-content: right;
     align-items: right;
+
 }
 
 .line li a {
@@ -37,7 +39,9 @@ nav .list ul li a {
 }
 
 nav .list ul li a:hover {
-    color: #33469b;
+    color: white;
+    background-color: #33469b;
+    padding: 5px;
 }
 
 .middel {
@@ -46,7 +50,7 @@ nav .list ul li a:hover {
     background-position: center;
     width: 100%;
     height: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 
 }
 
@@ -79,7 +83,7 @@ nav .list ul li a:hover {
     background-position: center;
     width: 100%;
     height: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
 }
 
@@ -106,6 +110,7 @@ nav .list ul li a:hover {
     text-align: center;
     font-size: 35px;
     font-family: 'Manrope', sans-serif;
+    
 }
 
 .titel h1 {
@@ -128,7 +133,6 @@ nav .list ul li a:hover {
 
 .rij {
     margin: 100px;
-
 }
 
 .title {
@@ -258,6 +262,7 @@ main div {
     padding-left: 50px;
 }
 
+/* footer*/
 main h1 {
     text-align: center;
     font-size: 25px;
@@ -286,6 +291,9 @@ main .icon p {
 
 main .icon h1 {
     padding-top: 20px;
+    color: #33469b;
+    font-size: 35px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .icon h2 {
@@ -297,6 +305,7 @@ main .icon h1 {
 .icon a {
     font-size: 20px;
     text-decoration: none;
+
 }
 
 .icons {
@@ -311,12 +320,18 @@ main .icons p {
     padding-bottom: 10px;
 }
 
-
 main .icons h1 {
     padding-top: 30px;
     margin-top: 50px;
 }
 
+
+.callme a {
+
+    color: #33469b;
+    font-size: 25px;
+    font-family: 'Manrope', sans-serif;
+}
 .overlay {
     left: 0%;
     top: 0%;
@@ -978,13 +993,27 @@ input[type=paswoord]:focus {
 
 /* Extra pagina's met foto's over workshops*/
 
+.galerij-tekst h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
 .galerij img {
+    align-content: center;
     width: 350px;
     height: 330px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.galerij {
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .popup {
@@ -1112,3 +1141,4 @@ input[type=paswoord]:focus {
     font-size: 35px;
     text-align: center;
 }
+
