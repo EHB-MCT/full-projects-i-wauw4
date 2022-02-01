@@ -820,10 +820,10 @@ input[type=paswoord]:focus {
 /* Extra pagina's met foto's over workshops*/
 
 .galerij img {
-    width: 320px;
-    height: 350px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    width: 350px;
+    height: 330px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
 }
