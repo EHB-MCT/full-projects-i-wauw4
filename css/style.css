@@ -29,19 +29,7 @@ nav .list ul {
 
 }
 
-.index li a {
-    border-bottom: solid #33469b;
-}
-
-.agenda li a {
-    border-bottom: solid #33469b;
-}
-
-.proces li a {
-    border-bottom: solid #33469b;
-}
-
-.projects li a {
+.line li a {
     border-bottom: solid #33469b;
 }
 
@@ -116,16 +104,16 @@ nav .list ul li a:hover {
     margin-bottom: 50px;
 }
 
+
+
 .tit h1 {
     text-align: center;
     font-size: 35px;
-
+    font-family: 'Manrope', sans-serif;
 }
 
-
-.zuil {
-    float: left;
-    margin: 10px;
+.all .wrapper .titel h1 {
+    color: black;
 }
 
 .visitekaart h2 {
@@ -142,7 +130,7 @@ nav .list ul li a:hover {
     padding-bottom: 300px;
 
     margin: 100px;
-    margin-left: 170px;
+
 }
 
 .title {
@@ -203,7 +191,8 @@ main div {
 
 .visitekaart h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .rij h2 {
@@ -566,7 +555,7 @@ div.desc {
     font-size: 25px;
     text-align: center;
     font-weight: 700;
-    color: #ffffff;
+    color: white;
 }
 
 .wrapper {
@@ -940,9 +929,38 @@ input[type=paswoord]:focus {
     /* 15% from the top and centered */
     padding: 30px;
     border: 1px solid #888;
-    width: 60%;
+    width: 50%;
     /* Could be more or less, depending on screen size */
 }
+
+.modal-content h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 15px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.modal-content p {
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.modal-content li {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.modal-content li strong {
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+
+}
+
 
 /* The Close Button */
 .close {
@@ -986,6 +1004,13 @@ input[type=paswoord]:focus {
 
 .popup {
     font-size: 25px;
+    background-color: #33469b;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+
+    font-size: 25px;
+    margin-left: 75px;
     background-color: #33469b;
     color: #ffffff;
     padding: 10px;
