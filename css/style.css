@@ -29,6 +29,7 @@ nav .list ul {
     padding-bottom: 15px;
 
 
+
 }
 
 .index li a {
@@ -193,7 +194,6 @@ footer h1 {
 main div {
     margin-top: 20px;
     text-align: center;
-    justify-content: center;
 }
 
 .card {
@@ -203,8 +203,6 @@ main div {
     padding-bottom: 50px;
     flex-direction: column;
 }
-
-
 
 .visitekaart h2 {
     text-align: center;
@@ -383,7 +381,6 @@ main .icons h1 {
 
 .content h2 {
     padding-bottom: 10px;
-    font-weight: 1000;
 }
 
 .content a {
@@ -916,13 +913,6 @@ input[type=paswoord]:focus {
     height: 100%;
 }
 
-h2 {
-    font-size: 45px;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 10px;
-}
-
 /* The Modal (background) */
 .modal {
     display: none;
@@ -1026,7 +1016,7 @@ h2 {
 }
 
 /* voor buttons*/
-.tuto {
+.log {
     align-items: center;
     margin: 0 auto;
     max-width: 300px;
@@ -1034,7 +1024,7 @@ h2 {
     background-color: rgb(224, 218, 218);
 }
 
-.tuto b {
+.log b {
     padding-left: 5px;
 }
 
@@ -1055,7 +1045,7 @@ input[type=paswoord]:focus {
 
 }
 
-.btn {
+.login {
     background-color: #33469b;
     color: white;
     padding: 16px 20px;
@@ -1067,7 +1057,7 @@ input[type=paswoord]:focus {
 
 }
 
-.btn:hover {
+.login:hover {
     opacity: 1;
 }
 
@@ -1082,14 +1072,26 @@ input[type=paswoord]:focus {
 }
 
 /*text tutorials*/
-.tutotext h2 {
+.logtext h2 {
     font-size: 35px;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 50px;
 }
 
-.tutotext p {
+.logtext p {
     text-align: center;
     padding-bottom: 20px;
+}
+
+.log h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.proces-h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    text-align: center;
 }
