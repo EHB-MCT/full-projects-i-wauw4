@@ -122,19 +122,17 @@ nav .list ul li a:hover {
     margin-bottom: 50px;
 }
 
+
+
 .tit h1 {
     text-align: center;
     font-size: 35px;
+    font-family: 'Manrope', sans-serif;
+    
+    
 
 }
 
-
-.zuil {
-
-    float: left;
-    margin: 10px;
-
-}
 
 
 .visitekaart h2 {
@@ -151,7 +149,7 @@ nav .list ul li a:hover {
     padding-bottom: 300px;
 
     margin: 100px;
-    margin-left: 170px;
+
 }
 
 .title {
@@ -198,11 +196,13 @@ footer h1 {
 }
 
 main div {
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
+    justify-content: center;
 }
-.card{
-    display: flex;   
+
+.card {
+    display: flex;
     width: 25%;
     padding: 5px;
     padding-bottom: 50px;
@@ -213,7 +213,8 @@ main div {
 
 .visitekaart h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .rij h2 {
@@ -222,32 +223,15 @@ main div {
 }
 
 .rij {
-   display: flex;
+    display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* PROCES*/
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .twp {
-    float: left;
+    display: flex;
+    align-items: center;
     width: 33.33%;
-    padding: 5px;
     padding-bottom: 50px;
 }
 
@@ -255,7 +239,7 @@ main div {
 .thinkworkplay::after {
 
     clear: both;
-    display: table;
+    display: flex;
 }
 
 
@@ -298,8 +282,14 @@ main h1 {
     font-family: 'Manrope', sans-serif;
 }
 
+
+
 .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.068);
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
@@ -308,10 +298,17 @@ main h1 {
 main .icon p {
     margin-top: 10px;
     padding-bottom: 10px;
+
 }
 
 main .icon h1 {
-    padding-top: 30px;
+    padding-top: 10px;
+}
+
+.icon h2 {
+    font-size: 20px;
+    padding-left: 2%;
+
 }
 
 .icons {
@@ -328,7 +325,7 @@ main .icons p {
 
 main .icons h1 {
     padding-top: 30px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .overlay {
@@ -774,22 +771,6 @@ div.desc {
 
 /*TOT HIER gewerkt door NABRAS*/
 
-
-
-.icon {
-    padding-left: 30%;
-    padding-top: 5%;
-    display: flex;
-    align-items: center;
-}
-
-.icon h2 {
-    font-size: 20px;
-    padding-left: 2%;
-
-}
-
-
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -935,12 +916,12 @@ input[type=paswoord]:focus {
     height: 100%;
 }
 
-.callme a {
-    font-size: 25px;
-    text-decoration: none;
-    color: #33469b;
+h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
-
 
 
 
@@ -1042,9 +1023,36 @@ input[type=paswoord]:focus {
     /* 15% from the top and centered */
     padding: 30px;
     border: 1px solid #888;
-    width: 60%;
+    width: 50%;
     /* Could be more or less, depending on screen size */
 }
+
+.modal-content h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 15px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.modal-content p {
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Manrope', sans-serif;
+}
+.modal-content li {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Manrope', sans-serif;
+
+}
+.modal-content li  strong {
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+
+}
+
 
 /* The Close Button */
 .close {
@@ -1074,11 +1082,47 @@ input[type=paswoord]:focus {
 }
 
 .popup {
-   font-size: 25px;
-   margin-left: 75px;
-   background-color: #33469b;
-   color: #ffffff;
-   padding: 10px;
-   border: none;
-   
+    font-size: 25px;
+    margin-left: 75px;
+    background-color: #33469b;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+
+    font-size: 25px;
+    margin-left: 75px;
+    background-color: #33469b;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.filterDiv {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.all {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/* Style the buttons */
+.btm {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btm:hover {
+    background-color: #ddd;
+}
+
+.btm.active {
+    background-color: #666;
+    color: white;
 }

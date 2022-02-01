@@ -28,28 +28,20 @@
     </div>
   </nav>
 
-  <label for="myCheck">volwassenen</label>
-  <input type="checkbox" id="myCheck" onclick="myFunction()">
-
-
-  <script>
-    function myFunction() {
-      var checkBox = document.getElementById("myCheck");
-      var text = document.getElementById("text");
-      if (checkBox.checked == true) {
-        text.style.display = "block";
-      } else {
-        text.style.display = "none";
-      }
-    }
-  </script>
+  <div id="myBtnContainer">
+    <button class="btm active" onclick="filterSelection('all')">alles</button>
+    <button class="btm active" onclick="filterSelection('volw')">volwassenen</button>
+    <button class="btm active" onclick="filterSelection('kind')">kinderen</button>
+    <button class="btm active" onclick="filterSelection('mix')">mix</button>
+  </div>
 
   <!--https://codepen.io/nicolaspavlotsky/pen/wqGgLO-->
-  <div class="wrapper">
-    <h1>Onze Projecten</h1>
-    <div class="cols">
-      <section id="text">
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
+<<<<<<< HEAD
+  <div class="all">
+    <div class="wrapper">
+      <h1>Onze Projecten</h1>
+      <div class="cols">
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
           <div class="container">
             <div class="front" style="background-image: url(images/projects/bikkenstad.jpg)">
               <div class="inner">
@@ -61,10 +53,11 @@
                 <p>Art <br> Utopisme <br> <br> Kinderen <br> <br> Educatief <br> Vrije tijd <br><a
                     href="Workshops/Bikkenstad.html">Meer info</a></p>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+=======
+  <div class="wrapper">
+    <h1>Onze Projecten</h1>
+    <div class="cols">
+<<<<<<< HEAD
       <div class="col" ontouchstart="this.classList.toggle('hover');">
         <div class="container">
           <div class="front" style="background-image: url(images/projects/bikkenstad.jpg)">
@@ -80,672 +73,689 @@
           </div>
         </div>
       </div>
+=======
+>>>>>>> c0a9007506e55a6f18bad59ac3181791c61512df
       <div class="col" ontouchstart="this.classList.toggle('hover');">
         <div class="container">
-          <div class="front" style="background-image: url(images/projects/beton.jpg)">
+          <div class="front" style="background-image: url(images/projects/bikkenstad.jpg)">
             <div class="inner">
-              <h1>BETONVORM</h1>
+              <h1>BIKKENSTAD</h1>
             </div>
           </div>
           <div class="back">
             <div class="inner">
-              <p>Architectuur <br> Art <br> <br> Mix <br> <br> Educatief <br> Vrije tijd<br><a
-                  href="Workshops/Betonvorm.html">Meer info</a></p>
+              <p>Art <br> Utopisme <br> <br> Kinderen <br> <br> Educatief <br> Vrije tijd <br><a
+                  href="Workshops/Bikkenstad.html">Meer info</a></p>
+>>>>>>> 4d8f11b1fa78eb9c64a4edd060b5c1bf5f73c81c
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/droomhuis.jpg)">
-            <div class="inner">
-              <h1>DROOMHUIZEN</h1>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/beton.jpg)">
+              <div class="inner">
+                <h1>BETONVORM</h1>
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Urbanisme <br><br> kinderen <br><br> Educatief <br> Vrije tijd<br><a
-                  href="Workshops/Droomhuizen.html">Meer info</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/schaal-wauman.jpg)">
-            <div class="inner">
-              <h1>SCHAAL WAUWMAN</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Educatief <br><br>Kinderen <br><br>Vrije tijd<br><a
-                  href="Workshops/SchaalWAUWman.html">Meer info</a></p>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Art <br> <br> Mix <br> <br> Educatief <br> Vrije tijd<br><a
+                    href="Workshops/Betonvorm.html">Meer info</a></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/zomercafe.jpg)">
-            <div class="inner">
-              <h1>ZOMERCAFE</h1>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/droomhuis.jpg)">
+              <div class="inner">
+                <h1>DROOMHUIZEN</h1>
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Utopism<br><br>Mix<br><br>Vrije tijd<br><a href="Workshops/Zomercafé.html">Meer
-                  info</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/leespark.jpeg)">
-            <div class="inner">
-              <h1>LEESPARK</p>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Urbanisme <br> <br> Mix <br> <br> Educatief <br> Vrijetijd <br> Participatie<br><a
-                  href="Workshops/Leespark.html">Meer
-                  info</a></p>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Urbanisme <br><br> kinderen <br><br> Educatief <br> Vrije tijd<br><a
+                    href="Workshops/Droomhuizen.html">Meer info</a></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/grafitti-muur.jpg)">
-            <div class="inner">
-              <h1>GRAFITTI MUUR</h1>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/schaal-wauman.jpg)">
+              <div class="inner">
+                <h1>SCHAAL WAUWMAN</h1>
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Utopism <br> <br> Mix <br> <br> Participatie <br> Co-cratie<br><a
-                  href="Workshops/GrafittiMuur.html">Meer
-                  info</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/gidsen.jpg)">
-            <div class="inner">
-              <h1>GIDSEN</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Art <br> <br> Mix <br> <br> Lezing<br><a href="Workshops/Gidsen.html">Meer
-                  info</a></p>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Educatief <br><br>Kinderen <br><br>Vrije tijd<br><a
+                    href="Workshops/SchaalWAUWman.html">Meer info</a></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/Bewegende-stad.jpg)">
-            <div class="inner">
-              <h1>BEWEGENDE STAD</h1>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/zomercafe.jpg)">
+              <div class="inner">
+                <h1>ZOMERCAFE</h1>
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Utopism <br> <br> Kinderen <br> <br> Eductief <br> Vrij tijd<br><a
-                  href="Workshops/BewegendeStad.html">Meer
-                  info</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/urbanledgends.jpg)">
-            <div class="inner">
-              <h1>URBAN LEGENDS</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Utopism <br> <br> Kinderen <br><br> Educatief <br> Vrijetijd <br><a
-                  href="Workshops/UrbanLegends.html">Meer
-                  info</a></p>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Utopism<br><br>Mix<br><br>Vrije tijd<br><a href="Workshops/Zomercafé.html">Meer
+                    info</a></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/rebag.jpg)">
-            <div class="inner">
-              <h1>REBAG</h1>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/leespark.jpeg)">
+              <div class="inner">
+                <h1>LEESPARK</p>
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art<br>Volwassenen<br><br>Educatief <br> Vrijetijd<br><a href="Workshops/Rebag.html">Meer
-                  info</a></p>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Urbanisme <br> <br> Mix <br> <br> Educatief <br> Vrijetijd <br> Participatie<br><a
+                    href="Workshops/Leespark.html">Meer
+                    info</a></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/grafitti-muur.jpg)">
+              <div class="inner">
+                <h1>GRAFITTI MUUR</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Utopism <br> <br> Mix <br> <br> Participatie <br> Co-cratie<br><a
+                    href="Workshops/GrafittiMuur.html">Meer
+                    info</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/gidsen.jpg)">
+              <div class="inner">
+                <h1>GIDSEN</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Art <br> <br> Mix <br> <br> Lezing<br><a href="Workshops/Gidsen.html">Meer
+                    info</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/Bewegende-stad.jpg)">
+              <div class="inner">
+                <h1>BEWEGENDE STAD</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Utopism <br> <br> Kinderen <br> <br> Eductief <br> Vrij tijd<br><a
+                    href="Workshops/BewegendeStad.html">Meer
+                    info</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv kind"  ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/urbanledgends.jpg)">
+              <div class="inner">
+                <h1>URBAN LEGENDS</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Utopism <br> <br> Kinderen <br><br> Educatief <br> Vrijetijd <br><a
+                    href="Workshops/UrbanLegends.html">Meer
+                    info</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv volw"  ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/rebag.jpg)">
+              <div class="inner">
+                <h1>REBAG</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Art<br>Volwassenen<br><br>Educatief <br> Vrijetijd<br><a href="Workshops/Rebag.html">Meer
+                    info</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/driehoek.jpg)">
+              <div class="inner">
+                <h1>DRIEHOEK <br> STRUCTUREN</h1>
 
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/driehoek.jpg)">
-            <div class="inner">
-              <h1>DRIEHOEK <br> STRUCTUREN</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur<br>Art<br><br> Kinderen<br><br>Educatief <br> Vrijetijd<br><a
+                    href="Workshops/DriehoekStructuren.html">Meer
+                    info</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/papierlab.jpg)">
+              <div class="inner">
+                <h1>PAPIERLAB</h1>
 
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur<br>Art<br><br> Kinderen<br><br>Educatief <br> Vrijetijd<br><a
-                  href="Workshops/DriehoekStructuren.html">Meer
-                  info</a></p>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Art<br><br> Kinderen<br><br>Educatief <br> Vrijetijd<br><a
+                    href="Workshops/Papierlab.html">Meer
+                    info</a></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/papierlab.jpg)">
-            <div class="inner">
-              <h1>PAPIERLAB</h1>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/concrete.jpeg)">
+              <div class="inner">
+                <h1>URBAN <br> CONCTRETE</h1>
 
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Art<br><br> Kinderen<br><br>Educatief <br> Vrijetijd<br><a
-                  href="Workshops/Papierlab.html">Meer
-                  info</a></p>
+            <div class="back">
+              <div class="inner">
+                <p>Urbanism<br>Mix<br>Participatie<br><br>Co-creatie<br><br>Educatief <br> Vrijetijd<br><a
+                    href="Workshops/UrbanConcrete.html">Meer
+                    info</a></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/concrete.jpeg)">
-            <div class="inner">
-              <h1>URBAN <br> CONCTRETE</h1>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/kostuums.jpg)">
+              <div class="inner">
+                <h1>KOSTUUMS</h1>
 
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Urbanism<br>Mix<br>Participatie<br><br>Co-creatie<br><br>Educatief <br> Vrijetijd<br><a
-                  href="Workshops/UrbanConcrete.html">Meer
-                  info</a></p>
+            <div class="back">
+              <div class="inner">
+                <p>Art <br> Kinderen<br><br>Educatief <br> Vrijetijd</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/kostuums.jpg)">
-            <div class="inner">
-              <h1>KOSTUUMS</h1>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/minigolf.jpg)">
+              <div class="inner">
+                <h1>MINIGOLF</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Urbanism<br><br>Mix<br><br>Participatie<br><br>Co-creatie<br><br>Educatief <br>
+                  Vrijetijd </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/plein.jpg)">
+              <div class="inner">
+                <h1>HET PLAN/PLEIN</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Urbanism<br>Kinderen<br><br>Participatie<br><br>Co-creatie<br><br>Educatief <br> Vrijetijd</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/furniture.jpg)">
+              <div class="inner">
+                <h1>FURNITURE</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Art<br> Mix<br><br>Participatie<br><br>Co-creatie<br><br>Educatief <br> Vrijetijd</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/saus.jpg)">
+              <div class="inner">
+                <h1>SAUS</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Art <br> Utopism<br><br> Kinderen<br><br>Educatief <br> Vrijetijd</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/hangvlak.jpg)">
+              <div class="inner">
+                <h1>HANGVLAKKEN</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Urbanism <br> Utopism<br><br>Kinderen<br><br>Participatie<br><br>Co-creatie<br><br>Educatief <br>
+                  Vrijetijd </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/tostrade.jpg)">
+              <div class="inner">
+                <h1>TOSTRADE</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Utopism<br>Kinderen<br><br>Educatief <br> Vrijetijd </p>
 
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art <br> Kinderen<br><br>Educatief <br> Vrijetijd</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/minigolf.jpg)">
-            <div class="inner">
-              <h1>MINIGOLF</h1>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/huisdierthuis.jpg)">
+              <div class="inner">
+                <h1>HUISDIERTHUIS</h1>
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Urbanism<br><br>Mix<br><br>Participatie<br><br>Co-creatie<br><br>Educatief <br>
-                Vrijetijd </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/plein.jpg)">
-            <div class="inner">
-              <h1>HET PLAN/PLEIN</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Urbanism<br>Kinderen<br><br>Participatie<br><br>Co-creatie<br><br>Educatief <br> Vrijetijd</p>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur<br>Mix<br><br>Educatief <br> Vrijetijd</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/furniture.jpg)">
-            <div class="inner">
-              <h1>FURNITURE</h1>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/drijvende-stad.jpg)">
+              <div class="inner">
+                <h1>DRIJVENDE STAD</h1>
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art<br> Mix<br><br>Participatie<br><br>Co-creatie<br><br>Educatief <br> Vrijetijd</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/saus.jpg)">
-            <div class="inner">
-              <h1>SAUS</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art <br> Utopism<br><br> Kinderen<br><br>Educatief <br> Vrijetijd</p>
+            <div class="back">
+              <div class="inner">
+                <p>Utopism<br> Kinderen<br><br>Educatief <br> Vrijetijd</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/hangvlak.jpg)">
-            <div class="inner">
-              <h1>HANGVLAKKEN</h1>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/sneeuwstad.jpg)">
+              <div class="inner">
+                <h1>SNEEUWSTAD</h1>
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Urbanism <br> Utopism<br><br>Kinderen<br><br>Participatie<br><br>Co-creatie<br><br>Educatief <br>
-                Vrijetijd </p>
+            <div class="back">
+              <div class="inner">
+                <p>Art <br> Utopism<br><br>Kinderen<br><br>Educatief <br> Vrijetijd </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/tostrade.jpg)">
-            <div class="inner">
-              <h1>TOSTRADE</h1>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/babeltoren-school.jpg)">
+              <div class="inner">
+                <h1>BABELTOREN-SCHOOL</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Utopism<br><br> Kinderen<br><br>Educatief <br> Vrijetijd</p>
+              </div>
             </div>
           </div>
-          <div class="back">
-            <div class="inner">
-              <p>Utopism<br>Kinderen<br><br>Educatief <br> Vrijetijd </p>
+        </div>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/babeltoren-bozar.jpg)">
+              <div class="inner">
+                <h1>BABELTOREN-BOZAR</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Utopism<br> <br> Kinderen <br> <br>Educatief <br> Vrijetijd</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/poincare.jpg)">
+              <div class="inner">
+                <h1>POINCARE</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Urbanisme<br><br> Mix<br><br>Educatief <br> Vrijetijd <br> participatie <br> co-creatie
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv volw" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/ruimtemobiel.JPG)">
+              <div class="inner">
+                <h1>RUIMTEMOBIEL</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Art<br><br>Volwassenen<br><br>Educatief <br> Vrijetijd </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/mout.jpg)">
+              <div class="inner">
+                <h1>MOUTSTRAAT</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Utopisme<br> Kinderen<br><br>Educatief <br> Vrijetijd <br> Participatie <br> Co-creatie</p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/cyclo.jpg)">
+              <div class="inner">
+                <h1>CYCLO</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Art <br> Urbanisme<br><br>Mix<br><br>Educatief <br> Vrijetijd <br> Participatie <br> Co-creatie</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/blik-breugel.jpg)">
+              <div class="inner">
+                <h1>BLIK VAN BREUGEL</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Art<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> co-creatie</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/bibboekenbabeltoren.jpg)">
+              <div class="inner">
+                <h1>BIBBOEKEN <br> BABELTOREN</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Art<br><br>Mix<br><br>Educatief <br> Vrijetijd <br> co-creatie<br></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/next-generation.jpg)">
+              <div class="inner">
+                <h1>NEXT GENERATION</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Utopism<br> <br> Mix <br> <br>Educatief <br> Vrijetijd</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/speelplaats.jpg)">
+              <div class="inner">
+                <h1>SPEELPLAATS</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur<br> <br> Kinderen <br> <br>Educatief <br> Vrijetijd <br> participatie <br> co-creatie
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv kind"ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/inside-outside.jpg)">
+              <div class="inner">
+                <h1>INSIDE OUTSIDE</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur<br> <br> Kinderen <br><br>Educatief <br> Vrijetijd</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/klavertje-vier.jpg)">
+              <div class="inner">
+                <h1>KLAVERTJE VIER</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Urbanisme<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> participatie <br> co-creatie</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv mix"  ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/insecten.jpeg)">
+              <div class="inner">
+                <h1>INSECTEN HOTELS</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Art<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> participatie <br>
+                  co-creatie
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/jess.jpeg)">
+              <div class="inner">
+                <h1>JESS</h1>
 
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Art<br> <br> Kinderen <br> <br>Educatief <br> Vrijetijd <br> participatie <br> co-creatie</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/huisdierthuis.jpg)">
-            <div class="inner">
-              <h1>HUISDIERTHUIS</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur<br>Mix<br><br>Educatief <br> Vrijetijd</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/drijvende-stad.jpg)">
-            <div class="inner">
-              <h1>DRIJVENDE STAD</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Utopism<br> Kinderen<br><br>Educatief <br> Vrijetijd</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/sneeuwstad.jpg)">
-            <div class="inner">
-              <h1>SNEEUWSTAD</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art <br> Utopism<br><br>Kinderen<br><br>Educatief <br> Vrijetijd </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/babeltoren-school.jpg)">
-            <div class="inner">
-              <h1>BABELTOREN-SCHOOL</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Utopism<br><br> Kinderen<br><br>Educatief <br> Vrijetijd</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/babeltoren-bozar.jpg)">
-            <div class="inner">
-              <h1>BABELTOREN-BOZAR</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Utopism<br> <br> Kinderen <br> <br>Educatief <br> Vrijetijd</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/poincare.jpg)">
-            <div class="inner">
-              <h1>POINCARE</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Urbanisme<br><br> Mix<br><br>Educatief <br> Vrijetijd <br> participatie <br> co-creatie
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/ruimtemobiel.JPG)">
-            <div class="inner">
-              <h1>RUIMTEMOBIEL</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art<br><br>Volwassenen<br><br>Educatief <br> Vrijetijd </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/mout.jpg)">
-            <div class="inner">
-              <h1>MOUTSTRAAT</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Utopisme<br> Kinderen<br><br>Educatief <br> Vrijetijd <br> Participatie <br> Co-creatie</p>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/cyclo.jpg)">
-            <div class="inner">
-              <h1>CYCLO</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art <br> Urbanisme<br><br>Mix<br><br>Educatief <br> Vrijetijd <br> Participatie <br> Co-creatie</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/blik-breugel.jpg)">
-            <div class="inner">
-              <h1>BLIK VAN BREUGEL</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> co-creatie</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/bibboekenbabeltoren.jpg)">
-            <div class="inner">
-              <h1>BIBBOEKEN <br> BABELTOREN</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art<br><br>Mix<br><br>Educatief <br> Vrijetijd <br> co-creatie<br></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/next-generation.jpg)">
-            <div class="inner">
-              <h1>NEXT GENERATION</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Utopism<br> <br> Mix <br> <br>Educatief <br> Vrijetijd</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/speelplaats.jpg)">
-            <div class="inner">
-              <h1>SPEELPLAATS</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur<br> <br> Kinderen <br> <br>Educatief <br> Vrijetijd <br> participatie <br> co-creatie
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/inside-outside.jpg)">
-            <div class="inner">
-              <h1>INSIDE OUTSIDE</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur<br> <br> Kinderen <br><br>Educatief <br> Vrijetijd</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/klavertje-vier.jpg)">
-            <div class="inner">
-              <h1>KLAVERTJE VIER</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Urbanisme<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> participatie <br> co-creatie</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/insecten.jpeg)">
-            <div class="inner">
-              <h1>INSECTEN HOTELS</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Art<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> participatie <br>
-                co-creatie
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/jess.jpeg)">
-            <div class="inner">
-              <h1>JESS</h1>
+        <div class="col filterDiv mix"  ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/doortodoor.jpg)">
+              <div class="inner">
+                <h1>DOORTODOOR</h1>
 
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art<br> <br> Kinderen <br> <br>Educatief <br> Vrijetijd <br> participatie <br> co-creatie</p>
+            <div class="back">
+              <div class="inner">
+                <p>Art<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> participatie <br> co-creatie</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/doortodoor.jpg)">
-            <div class="inner">
-              <h1>DOORTODOOR</h1>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/and&.jpg)">
+              <div class="inner">
+                <h1>AND&</h1>
 
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> participatie <br> co-creatie</p>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Art<br> <br> Kinderen <br> <br>Educatief <br> Vrijetijd</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/and&.jpg)">
-            <div class="inner">
-              <h1>AND&</h1>
+        <div class="col filterDiv mix"  ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/leesstraat.jpg)">
+              <div class="inner">
+                <h1>LEESSTRAAT</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Urbanisme<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> Participatie</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv mix"  ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/beeldengroep.jpg)">
+              <div class="inner">
+                <h1>BEELDENGROEP</h1>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Art<br><br>Mix<br><br>Educatief <br> Vrijetijd <br> Participatie</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col filterDiv mix" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/paviljoen.jpg)">
+              <div class="inner">
+                <h1>PAVILJOEN</h1>
 
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Art<br> <br> Kinderen <br> <br>Educatief <br> Vrijetijd</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/leesstraat.jpg)">
-            <div class="inner">
-              <h1>LEESSTRAAT</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Urbanisme<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> Participatie</p>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> participatie <br> co-creatie</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/beeldengroep.jpg)">
-            <div class="inner">
-              <h1>BEELDENGROEP</h1>
+        <div class="col filterDiv mix"  ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/coop.jpg)">
+              <div class="inner">
+                <h1>COOP</h1>
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art<br><br>Mix<br><br>Educatief <br> Vrijetijd <br> Participatie</p>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur <br> Art<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> Participatie <br>
+                  Co-creatie
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/paviljoen.jpg)">
-            <div class="inner">
-              <h1>PAVILJOEN</h1>
+        <div class="col filterDiv kind" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/recyclart.jpg)">
+              <div class="inner">
+                <h1>RECYCLART</h1>
 
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> participatie <br> co-creatie</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/coop.jpg)">
-            <div class="inner">
-              <h1>COOP</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur <br> Art<br> <br> Mix <br> <br>Educatief <br> Vrijetijd <br> Participatie <br>
-                Co-creatie
-              </p>
+            <div class="back">
+              <div class="inner">
+                <p>Architectuur<br> <br> kinderen <br> <br>Educatief <br> Vrijetijd</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/recyclart.jpg)">
-            <div class="inner">
-              <h1>RECYCLART</h1>
-
+        <div class="col filterDiv volw" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(images/projects/houtbewerking.jpg)">
+              <div class="inner">
+                <h1>HOUT <br> BEWERKING</h1>
+              </div>
             </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Architectuur<br> <br> kinderen <br> <br>Educatief <br> Vrijetijd</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(images/projects/houtbewerking.jpg)">
-            <div class="inner">
-              <h1>HOUT <br> BEWERKING</h1>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Art<br> <br> Volwassenen <br> <br>Educatief <br> Vrijetijd</p>
+            <div class="back">
+              <div class="inner">
+                <p>Art<br> <br> Volwassenen <br> <br>Educatief <br> Vrijetijd</p>
+              </div>
             </div>
           </div>
         </div>
@@ -755,18 +765,19 @@
   <main>
     <div class="icon">
       <h1>Volg ons via sociale media</h1>
-      <a href="https://www.facebook.com/WAUWworkshops">
-        <i class="fab fa-facebook" style="font-size:50px;color:#33469b;;"></i></a>
-      <a href="https://www.instagram.com/wauw.workshops/">
-        <i class="fab fa-instagram" style="font-size:50px;color:#33469b;;"></i></a>
+      <div>
+        <a href="https://www.facebook.com/WAUWworkshops">
+          <i class="fab fa-facebook" style="font-size:50px;color:#33469b;;"></i></a>
+        <a href="https://www.instagram.com/wauw.workshops/">
+          <i class="fab fa-instagram" style="font-size:50px;color:#33469b;;"></i></a>
+      </div>
       <div class="callme">
         <p><a href="tel:+123 123 12 32 12">+123 123 12 32 12</a></p>
         <p><a href="mailto:wauw.workshops@gmail.com">wauw.workshops@gmail.com</a></p>
       </div>
-
-
     </div>
   </main>
+  <script src="index.js"></script>
 </body>
 
 </html>
