@@ -11,6 +11,7 @@ body {
 
 nav .list img {
     position: static;
+    
 }
 
 nav .list ul li {
@@ -37,7 +38,9 @@ nav .list ul li a {
 }
 
 nav .list ul li a:hover {
-    color: #33469b;
+    color: white;
+    background-color: #33469b;
+    padding: 5px;
 }
 
 .middel {
@@ -46,7 +49,7 @@ nav .list ul li a:hover {
     background-position: center;
     width: 100%;
     height: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 
 }
 
@@ -108,9 +111,7 @@ nav .list ul li a:hover {
     text-align: center;
     font-size: 35px;
     font-family: 'Manrope', sans-serif;
-
-
-
+    
 }
 
 
@@ -130,10 +131,8 @@ nav .list ul li a:hover {
 }
 
 .rij {
-    padding-bottom: 300px;
 
     margin: 100px;
-
 }
 
 .title {
@@ -257,6 +256,7 @@ main div {
     padding-left: 50px;
 }
 
+/* footer*/
 main h1 {
     text-align: center;
     font-size: 25px;
@@ -285,6 +285,9 @@ main .icon p {
 
 main .icon h1 {
     padding-top: 20px;
+    color: #33469b;
+    font-size: 35px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .icon h2 {
@@ -316,6 +319,13 @@ main .icons h1 {
     margin-top: 50px;
 }
 
+
+.callme a {
+
+    color: #33469b;
+    font-size: 25px;
+    font-family: 'Manrope', sans-serif;
+}
 .overlay {
     left: 0%;
     top: 0%;
@@ -1121,3 +1131,4 @@ input[type=paswoord]:focus {
     font-size: 35px;
     text-align: center;
 }
+
