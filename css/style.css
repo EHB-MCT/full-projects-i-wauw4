@@ -27,19 +27,7 @@ nav .list ul {
     align-items: right;
 }
 
-.index li a {
-    border-bottom: solid #33469b;
-}
-
-.agenda li a {
-    border-bottom: solid #33469b;
-}
-
-.proces li a {
-    border-bottom: solid #33469b;
-}
-
-.projects li a {
+.line li a {
     border-bottom: solid #33469b;
 }
 
