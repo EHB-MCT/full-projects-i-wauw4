@@ -227,23 +227,6 @@ main div {
     display: flex;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* PROCES*/
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .twp {
@@ -1078,5 +1061,35 @@ h2 {
     background-color: #33469b;
     color: #ffffff;
     padding: 10px;
+}
 
+.filterDiv {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.all {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/* Style the buttons */
+.btm {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btm:hover {
+    background-color: #ddd;
+}
+
+.btm.active {
+    background-color: #666;
+    color: white;
 }
