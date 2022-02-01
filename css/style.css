@@ -16,8 +16,8 @@ nav .list img {
 nav .list ul li {
     display: inline-block;
     font-size: 20px;
-    padding-right: 20px;
-    margin-top: 10px;
+    padding-right: 17px;
+    margin-top: 40px;
 }
 
 nav .list ul {
@@ -25,10 +25,7 @@ nav .list ul {
     display: flex;
     justify-content: right;
     align-items: right;
-    background-color: #888;
-    padding-bottom: 15px;
-
-
+    margin-top: 200px;
 
 }
 
@@ -307,6 +304,7 @@ main .icon h1 {
 .icon a {
     font-size: 20px;
     text-decoration: none;
+
 }
 
 .icons {
@@ -964,13 +962,26 @@ input[type=paswoord]:focus {
 
 /* Extra pagina's met foto's over workshops*/
 
+.galerij-tekst h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
 .galerij img {
+    align-content: center;
     width: 350px;
-    height: 330px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.galerij {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .popup {
