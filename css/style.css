@@ -198,11 +198,13 @@ footer h1 {
 }
 
 main div {
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
+    justify-content: center;
 }
-.card{
-    display: flex;   
+
+.card {
+    display: flex;
     width: 25%;
     padding: 5px;
     padding-bottom: 50px;
@@ -222,7 +224,7 @@ main div {
 }
 
 .rij {
-   display: flex;
+    display: flex;
 }
 
 
@@ -298,8 +300,14 @@ main h1 {
     font-family: 'Manrope', sans-serif;
 }
 
+
+
 .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.068);
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
@@ -308,10 +316,17 @@ main h1 {
 main .icon p {
     margin-top: 10px;
     padding-bottom: 10px;
+
 }
 
 main .icon h1 {
-    padding-top: 30px;
+    padding-top: 10px;
+}
+
+.icon h2 {
+    font-size: 20px;
+    padding-left: 2%;
+
 }
 
 .icons {
@@ -328,7 +343,7 @@ main .icons p {
 
 main .icons h1 {
     padding-top: 30px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .overlay {
@@ -774,22 +789,6 @@ div.desc {
 
 /*TOT HIER gewerkt door NABRAS*/
 
-
-
-.icon {
-    padding-left: 30%;
-    padding-top: 5%;
-    display: flex;
-    align-items: center;
-}
-
-.icon h2 {
-    font-size: 20px;
-    padding-left: 2%;
-
-}
-
-
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -937,6 +936,7 @@ input[type=paswoord]:focus {
 
 .callme a {
     font-size: 25px;
+    padding-left: 20px;
     text-decoration: none;
     color: #33469b;
 }
@@ -1074,10 +1074,10 @@ input[type=paswoord]:focus {
 }
 
 .popup {
-   font-size: 25px;
-   margin-left: 75px;
-   background-color: #33469b;
-   color: #ffffff;
-   padding: 10px;
-   
+    font-size: 25px;
+    margin-left: 75px;
+    background-color: #33469b;
+    color: #ffffff;
+    padding: 10px;
+
 }
