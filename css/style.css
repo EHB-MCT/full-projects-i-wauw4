@@ -198,8 +198,10 @@ footer h1 {
 }
 
 main div {
+    display: flex;
     margin-top: 50px;
     text-align: center;
+    justify-content: center;
 }
 
 
@@ -276,8 +278,16 @@ main h1 {
     font-family: 'Manrope', sans-serif;
 }
 
+
+
 .icon {
+    padding-left: 30%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.068);
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
@@ -290,6 +300,11 @@ main .icon p {
 
 main .icon h1 {
     padding-top: 30px;
+}
+
+.icon h2 {
+    font-size: 20px;
+    padding-left: 2%;
 }
 
 .icons {
@@ -752,22 +767,6 @@ div.desc {
 
 /*TOT HIER gewerkt door NABRAS*/
 
-
-
-.icon {
-    padding-left: 30%;
-    padding-top: 5%;
-    display: flex;
-    align-items: center;
-}
-
-.icon h2 {
-    font-size: 20px;
-    padding-left: 2%;
-
-}
-
-
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -915,6 +914,7 @@ input[type=paswoord]:focus {
 
 .callme a {
     font-size: 25px;
+    padding-left: 20px;
     text-decoration: none;
     color: #33469b;
 }
