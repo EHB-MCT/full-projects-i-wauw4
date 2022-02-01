@@ -14,10 +14,6 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-<<<<<<< HEAD
-=======
-
-
 
 
 var password = "12345"
@@ -54,4 +50,3 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 }
->>>>>>> e9981e5f32d750c1ca587971e8a3bda9c7da68b3
