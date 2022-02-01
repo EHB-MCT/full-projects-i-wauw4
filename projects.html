@@ -27,27 +27,10 @@
     </div>
   </nav>
 
-  <label for="myCheck">volwassenen</label>
-  <input type="checkbox" id="myCheck" onclick="myFunction()">
-
-
-  <script>
-    function myFunction() {
-      var checkBox = document.getElementById("myCheck");
-      var text = document.getElementById("text");
-      if (checkBox.checked == true) {
-        text.style.display = "block";
-      } else {
-        text.style.display = "none";
-      }
-    }
-  </script>
-
   <!--https://codepen.io/nicolaspavlotsky/pen/wqGgLO-->
   <div class="wrapper">
     <h1>Onze Projecten</h1>
     <div class="cols">
-      <section id="text">
         <div class="col" ontouchstart="this.classList.toggle('hover');">
           <div class="container">
             <div class="front" style="background-image: url(images/projects/bikkenstad.jpg)">
@@ -63,7 +46,6 @@
             </div>
           </div>
         </div>
-      </section>
       <div class="col" ontouchstart="this.classList.toggle('hover');">
         <div class="container">
           <div class="front" style="background-image: url(images/projects/bikkenstad.jpg)">
