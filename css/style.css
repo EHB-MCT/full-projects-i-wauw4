@@ -949,3 +949,9 @@ input[type=paswoord]:focus {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+
+.popup {
+    color: blueviolet;
+    font-size: 35px;
+}
