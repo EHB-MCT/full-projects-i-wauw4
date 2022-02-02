@@ -57,3 +57,12 @@ for (var i = 0; i < btns.length; i++) {
         this.className += " active";
     });
 }
+
+/*credit aan WAUW1*/
+function log() {
+    var naamEen = document.getElementById("mail").value;
+    var wachtwoord = document.getElementById("ww").value;
+    if (naamEen == "ilhan" && wachtwoord == "anticheat123" || naamEen == "Ilhan" && wachtwoord == "vrijdag") {
+        alert("hello");
+    }
+}

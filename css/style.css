@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap');
 
+@media (max-width:900px) {
+
+    .kader {
+        padding-top: 30px;
+    }
+
+    .kader ul li {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width:700px) {
+    .kader ul li {
+        font-size: 15px;
+        margin-right: 300px;
+        margin-bottom: 10px;
+    }
+
+    .kader ul {
+        padding-right: 300px;
+    }
+
+}
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -11,14 +38,15 @@ body {
 
 nav .list img {
     position: static;
-
 }
 
 nav .list ul li {
     display: inline-block;
     font-size: 20px;
-    padding-right: 17px;
     margin-top: 40px;
+    background-color: rgba(128, 128, 128, 0.493);
+    padding: 5px 17px 5px 5px;
+
 }
 
 nav .list ul {
@@ -26,7 +54,8 @@ nav .list ul {
     display: flex;
     justify-content: right;
     align-items: right;
-
+    position: fixed;
+    z-index: 1;
 }
 
 .line li a {
@@ -55,11 +84,15 @@ nav .list ul li a:hover {
 }
 
 .kader {
-    border: 7px solid white;
     color: white;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 1050px
+    justify-content: center;
+    width: 25%;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.kader ul {
+    border: 7px solid white;
 }
 
 .kader img {
@@ -67,14 +100,11 @@ nav .list ul li a:hover {
     margin-top: 50px;
     margin-bottom: 40px;
     margin-left: 20px;
-
 }
 
 .kader li {
     margin: 20px;
-    font-size: 28px;
-
-
+    font-size: 25px;
 }
 
 .pfbg {
@@ -84,7 +114,6 @@ nav .list ul li a:hover {
     width: 100%;
     height: 500px;
     margin-bottom: 30px;
-
 }
 
 .porto {
@@ -97,7 +126,7 @@ nav .list ul li a:hover {
 }
 
 
-.gsm {
+.agendaNav {
     background: url("../images/projects/huisdierthuis.jpg") no-repeat;
     background-size: cover;
     background-position: center;
@@ -106,7 +135,7 @@ nav .list ul li a:hover {
     margin-bottom: 50px;
 }
 
-.tit h1 {
+.indexTitel h1 {
     text-align: center;
     font-size: 35px;
     font-family: 'Manrope', sans-serif;
@@ -184,7 +213,7 @@ footer h1 {
     text-align: center;
 }
 
-main div {
+footer div {
     margin-top: 20px;
     text-align: center;
 }
@@ -193,19 +222,17 @@ main div {
     display: flex;
     width: 25%;
     padding: 5px;
-    padding-bottom: 50px;
     flex-direction: column;
+}
+
+.card img {
+    display: flex;
 }
 
 .visitekaart h2 {
     text-align: center;
     font-size: 35px;
     font-family: 'Manrope', sans-serif;
-}
-
-.rij h2 {
-    text-align: center;
-    padding: 10px;
 }
 
 .rij {
@@ -263,14 +290,12 @@ main div {
 }
 
 /* footer*/
-main h1 {
+footer h1 {
     text-align: center;
     font-size: 25px;
     margin-bottom: 10px;
     font-family: 'Manrope', sans-serif;
 }
-
-
 
 .icon {
     display: flex;
@@ -283,13 +308,12 @@ main h1 {
     border-top-right-radius: 100%;
 }
 
-main .icon p {
-    margin-top: 0px;
+footer .icon p {
     padding-bottom: 20px;
     text-decoration-style: none;
 }
 
-main .icon h1 {
+footer .icon h1 {
     padding-top: 20px;
     color: #33469b;
     font-size: 35px;
@@ -315,19 +339,18 @@ main .icon h1 {
     border-top-right-radius: 100%;
 }
 
-main .icons p {
+footer .icons p {
     margin-top: 10px;
     padding-bottom: 10px;
 }
 
-main .icons h1 {
+footer .icons h1 {
     padding-top: 30px;
     margin-top: 50px;
 }
 
 
 .callme a {
-
     color: #33469b;
     font-size: 25px;
     font-family: 'Manrope', sans-serif;
@@ -1021,14 +1044,15 @@ input[type=paswoord]:focus {
     font-size: 25px;
     background-color: #33469b;
     color: #ffffff;
-    padding: 10px;
     border: none;
-
     font-size: 25px;
-    margin-left: 75px;
     background-color: #33469b;
     color: #ffffff;
     padding: 10px;
+}
+
+.popupwrapper {
+    margin: 0 auto;
 }
 
 .filterDiv {
