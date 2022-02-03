@@ -678,6 +678,31 @@ div.desc {
     font-family: 'Manrope', sans-serif;
 }
 
+.inner a {
+    
+    font-size: 20px;
+    background-color: #33469b;
+    color: #ffffff;
+    border: none;
+    background-color: #33469b;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.inner a:hover {
+    font-size: 20px;
+    background-color: #ccc;
+    color: #33469b;
+    border: none;
+    background-color: #ccc;
+    color: #33469b;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .colss {
     display: -webkit-box;
     display: -ms-flexbox;
