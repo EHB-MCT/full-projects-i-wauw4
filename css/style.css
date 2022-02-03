@@ -1249,6 +1249,10 @@ input[type=paswoord]:focus {
         flex-wrap: wrap;
     }
 
+    .card img {
+        width: 100%;
+    }
+
 }
 
 @media (max-width:700px) {
@@ -1265,12 +1269,8 @@ input[type=paswoord]:focus {
         margin-bottom: 10px;
     }
 
-    .cilinder {
-        display: flex;
-    }
-
-    .cilinder div {
-        flex: 1;
+    .card img {
+        width: 100%;
     }
 
     .kader ul {
@@ -1301,7 +1301,6 @@ input[type=paswoord]:focus {
 }
 
 @media (max-width:480px) {
-
     .kader ul {
         border: 7px solid white;
         text-align: center;
@@ -1310,6 +1309,10 @@ input[type=paswoord]:focus {
 
     .twp {
         display: flex;
+    }
+
+    .card {
+        width: 50%;
     }
 
     .twp div {
