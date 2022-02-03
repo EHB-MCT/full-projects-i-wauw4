@@ -49,11 +49,20 @@ function w3RemoveClass(element, name) {
 
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
+var btns = btnContainer.getElementsByClassName("btm");
 for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function () {
         var current = document.getElementsByClassName("active");
         current[0].className = current[0].className.replace(" active", "");
         this.className += " active";
     });
+}
+
+/*credit aan WAUW1*/
+function log() {
+    var naamEen = document.getElementById("mail").value;
+    var wachtwoord = document.getElementById("ww").value;
+    if (naamEen == "ilhan" && wachtwoord == "anticheat123" || naamEen == "Ilhan" && wachtwoord == "vrijdag") {
+        alert("hello");
+    }
 }
