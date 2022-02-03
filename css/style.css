@@ -10,6 +10,11 @@
         font-size: 20px;
         margin-bottom: 10px;
     }
+
+    .visitekaart h2 {
+        font-size: 10px;
+    }
+
 }
 
 @media (max-width:700px) {
@@ -22,6 +27,11 @@
     .kader ul {
         padding-right: 300px;
     }
+
+    .modal-content img {
+        width: 50%;
+    }
+
 }
 
 
@@ -39,7 +49,7 @@ nav .list img {
 
 }
 
-nav .list  li {
+nav .list li {
     display: inline-block;
     font-size: 20px;
     margin-top: 40px;
@@ -48,7 +58,17 @@ nav .list  li {
 
 }
 
-nav .list  {
+.tutor {
+    background: url("../images/index/All-Workshops/03_droomhuizen/Droomhuis_1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+
+nav .list {
     width: 100%;
     display: flex;
     justify-content: right;
@@ -61,12 +81,12 @@ nav .list  {
     border-bottom: solid #33469b;
 }
 
-nav .list  li a {
+nav .list li a {
     text-decoration: none;
     color: white;
 }
 
-nav .list  li a:hover {
+nav .list li a:hover {
     color: white;
     background-color: #33469b;
     padding: 5px;
@@ -107,13 +127,14 @@ nav .list  li a:hover {
 }
 
 .pfbg {
-    background: url("../images/index/1x/Asset\ 2.png") no-repeat;
+    background: url("../images/index/Asset-2.png") no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 500px;
     margin-bottom: 30px;
 }
+
 
 .porto {
     background: url("../images/projects/grafitti-muur.jpg") no-repeat;
@@ -124,9 +145,8 @@ nav .list  li a:hover {
     margin-bottom: 50px;
 }
 
-
 .agendaNav {
-    background: url("../images/projects/huisdierthuis.jpg") no-repeat;
+    background: url("../images/index/Asset-12.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -1001,7 +1021,7 @@ input[type=paswoord]:focus {
 }
 
 .modal-content img {
-    margin-left: 190px;
+    margin: 0 auto;
 }
 
 .modal-content video {
@@ -1069,7 +1089,7 @@ input[type=paswoord]:focus {
     border: none;
 
     font-size: 25px;
-    
+
     background-color: #ccc;
     color: #33469b;
     padding: 10px;
@@ -1164,7 +1184,7 @@ input[type=paswoord]:focus {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 600px;
+    height: 500px;
     margin-bottom: 50px;
 }
 
@@ -1173,7 +1193,6 @@ input[type=paswoord]:focus {
     font-size: 35px;
     text-align: center;
     padding-bottom: 20px;
-    padding-top: 50px;
 }
 
 .logtext p {
