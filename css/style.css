@@ -41,7 +41,7 @@ nav .list img {
 
 }
 
-nav .list ul li {
+nav .list  li {
     display: inline-block;
     font-size: 20px;
     margin-top: 40px;
@@ -50,7 +50,7 @@ nav .list ul li {
 
 }
 
-nav .list ul {
+nav .list  {
     width: 100%;
     display: flex;
     justify-content: right;
@@ -63,12 +63,12 @@ nav .list ul {
     border-bottom: solid #33469b;
 }
 
-nav .list ul li a {
+nav .list  li a {
     text-decoration: none;
     color: white;
 }
 
-nav .list ul li a:hover {
+nav .list  li a:hover {
     color: white;
     background-color: #33469b;
     padding: 5px;
