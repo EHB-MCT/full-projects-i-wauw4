@@ -655,7 +655,7 @@ div.desc {
 }
 
 .inner a {
-    
+
     font-size: 20px;
     background-color: #33469b;
     color: #ffffff;
@@ -965,6 +965,11 @@ input[type=paswoord]:focus {
 .flex-wrapper {
     display: flex;
     flex-wrap: wrap;
+}
+
+.icon i {
+    font-size: 50px;
+    color: #33469b;
 }
 
 .flex-wrap-item-tuto {
