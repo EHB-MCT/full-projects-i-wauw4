@@ -1246,6 +1246,13 @@ input[type=paswoord]:focus {
         padding-top: 20px;
         font-family: 'Manrope', sans-serif;
     }
+
+    .flex-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }
 
 
@@ -1267,6 +1274,12 @@ input[type=paswoord]:focus {
         font-family: 'Manrope', sans-serif;
     }
 
+    .flex-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }
 
 @media (max-width:480px) {
@@ -1285,5 +1298,11 @@ input[type=paswoord]:focus {
         color: #33469b;
         padding-top: 20px;
         font-family: 'Manrope', sans-serif;
+    }
+
+    .flex-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
