@@ -81,7 +81,6 @@ nav .list li {
     margin-bottom: 50px;
 }
 
-
 nav .list {
     width: 100%;
     display: flex;
@@ -1265,4 +1264,36 @@ input[type=paswoord]:focus {
     font-size: 33px;
     text-align: center;
     font-family: 'Manrope', sans-serif;
+}
+
+@media (max-width:900px) {
+
+    .kader {
+        padding-top: 30px;
+    }
+
+    .kader ul li {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .visitekaart h2 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:700px) {
+    .kader ul li {
+        font-size: 15px;
+        margin-right: 300px;
+        margin-bottom: 10px;
+    }
+
+    .kader ul {
+        padding-right: 300px;
+    }
+
+    .modal-content img {
+        width: 50%;
+    }
 }

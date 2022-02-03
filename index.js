@@ -62,7 +62,8 @@ for (var i = 0; i < btns.length; i++) {
 function log() {
     var naamEen = document.getElementById("mail").value;
     var wachtwoord = document.getElementById("ww").value;
-    if (naamEen == "ilhan" && wachtwoord == "anticheat123" || naamEen == "Ilhan" && wachtwoord == "vrijdag") {
-        alert("hello");
+    if (naamEen == "test" && wachtwoord == "test" || naamEen == "Ilhan" && wachtwoord == "vrijdag") {
+        getElementById("oeps").href = "index.html";
+        console.log("hier");
     }
 }
