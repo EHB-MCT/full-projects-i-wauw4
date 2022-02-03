@@ -11,8 +11,15 @@
         margin-bottom: 10px;
     }
 
-    .visitekaart h2 {
-        font-size: 10px;
+    .footer-title {
+        padding-top: 1px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .icon h2 {
+        font-size: 35px;
+        padding-left: 2%;
+        color: #33469b;
     }
 }
 
@@ -27,12 +34,13 @@
         padding-right: 300px;
     }
 
-    .modal-content img {
-        width: 50%;
+    .icon h1 {
+        padding-top: 20px;
+        font-size: 15px;
+        padding-left: 2%;
+        color: #33469b;
     }
-
 }
-
 
 html {
     scroll-behavior: smooth;
@@ -186,13 +194,6 @@ nav .list li a:hover {
     text-align: center;
 }
 
-footer h1 {
-    font-size: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-family: 'Manrope', sans-serif;
-}
-
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -316,13 +317,14 @@ footer h1 {
 
 .icon {
     display: flex;
+    padding-top: 2rem;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.068);
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
 }
 
 footer .icon p {
@@ -330,47 +332,20 @@ footer .icon p {
     text-decoration-style: none;
 }
 
-footer .icon h1 {
-    padding-top: 20px;
-    color: #33469b;
-    font-size: 35px;
+.footer-title {
+    padding-top: 1px;
     font-family: 'Manrope', sans-serif;
 }
 
 .icon h2 {
-    font-size: 20px;
+    font-size: 35px;
     padding-left: 2%;
-
+    color: #33469b;
 }
 
 .icon a {
-    font-size: 20px;
-    text-decoration: none;
-
-}
-
-.icons {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.068);
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
-}
-
-footer .icons p {
-    margin-top: 10px;
-    padding-bottom: 10px;
-}
-
-footer .icons h1 {
-    padding-top: 30px;
-    margin-top: 50px;
-}
-
-
-.callme a {
-    color: #33469b;
     font-size: 25px;
-    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
 }
 
 .overlay {
