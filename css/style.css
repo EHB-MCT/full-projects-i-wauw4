@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap');
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -53,7 +59,6 @@ nav .list li a {
 nav .list li a:hover {
     color: white;
     background-color: #33469b;
-    padding: 5px;
 }
 
 .middel {
@@ -222,14 +227,13 @@ footer div {
     display: flex;
 }
 
-/* PROCES*/
-/* Three image containers (use 25% for four, and 50% for two, etc) */
 .twp {
     display: flex;
     align-items: center;
     width: 33.33%;
     padding-bottom: 50px;
 }
+
 
 /* Clear floats after image containers */
 .thinkworkplay::after {
@@ -289,6 +293,11 @@ footer h1 {
     background-color: rgba(0, 0, 0, 0.068);
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
+}
+
+.icon i {
+    font-size: 50px;
+    color: #33469b;
 }
 
 footer .icon p {
