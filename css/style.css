@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap');
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+/*Bronnen
+https://codepen.io/nicolaspavlotsky/pen/wqGgLO
+https://www.w3schools.com/howto/howto_js_filter_elements.asp
+https://www.w3schools.com/howto/howto_css_modals.asp
+https://www.w3schools.com/howto/howto_css_timeline.asp
+https://validator.w3.org/
+*/
 
 html {
     scroll-behavior: smooth;
@@ -28,6 +31,11 @@ nav .list li {
 
 }
 
+.twp img {
+    max-width: 100%;
+    height: auto;
+}
+
 .tutor {
     background: url("../images/index/All-Workshops/03_droomhuizen/Droomhuis_1.jpg") no-repeat;
     background-size: cover;
@@ -47,7 +55,7 @@ nav .list {
 }
 
 .line li a {
-    border-bottom: solid #33469b;
+    border-bottom: solid white;
 }
 
 nav .list li a {
@@ -1232,27 +1240,27 @@ input[type=paswoord]:focus {
     .visitekaart h2 {
         font-size: 15px;
     }
+
+    .popup {
+        font-size: 15px;
+    }
+
+    .popup:hover {
+        font-size: 15px;
+    }
+
+
+    .card img {
+        width: 100%;
+    }
+
+    .flex-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }
-
-@media (max-width:900px) {
-
-    .kader {
-        padding-top: 30px;
-    }
-
-    .kader ul li {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-
-    .footer-title {
-        font-size: 20px;
-        color: #33469b;
-        padding-top: 20px;
-        font-family: 'Manrope', sans-serif;
-    }
-}
-
 
 @media (max-width:720px) {
     .kader ul li {
@@ -1262,7 +1270,7 @@ input[type=paswoord]:focus {
     }
 
     .kader ul {
-        padding-right: 300px;
+        padding-right: 100px;
     }
 
     .icon h1 {
@@ -1270,6 +1278,19 @@ input[type=paswoord]:focus {
         color: #33469b;
         padding-top: 20px;
         font-family: 'Manrope', sans-serif;
+    }
+
+    .popup {
+        font-size: 15px;
+    }
+
+    .popup:hover {
+        font-size: 15px;
+    }
+    .flex-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
 }
@@ -1283,6 +1304,10 @@ input[type=paswoord]:focus {
     .kader ul li {
         font-size: 14px;
         margin-bottom: 10px;
+    }
+
+    .kader img {
+        width: auto;
     }
 
     .icon h1 {
@@ -1561,4 +1586,16 @@ footer .icons h1 {
     font-size: 27px;
     text-align: center;
     font-family: 'Manrope', sans-serif;
+
+    .popup {
+        font-size: 15px;
+    }
+
+    .popup:hover {
+        font-size: 15px;
+    .flex-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
