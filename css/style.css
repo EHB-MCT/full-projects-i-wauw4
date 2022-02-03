@@ -1244,6 +1244,13 @@ input[type=paswoord]:focus {
     .card img {
         width: 100%;
     }
+
+    .flex-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }
 
 @media (max-width:700px) {
@@ -1271,6 +1278,12 @@ input[type=paswoord]:focus {
     .popup:hover {
         font-size: 15px;
     }
+    .flex-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }
 
 @media (max-width:480px) {
@@ -1300,5 +1313,9 @@ input[type=paswoord]:focus {
 
     .popup:hover {
         font-size: 15px;
+    .flex-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
