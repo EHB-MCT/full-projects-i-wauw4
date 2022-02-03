@@ -15,6 +15,16 @@ body {
     background-attachment: fixed;
 }
 
+h1{
+    font-size: 35px;
+    font-family: 'Manrope', sans-serif;
+}
+
+h2{
+    font-size: 33px;
+    font-family: 'Manrope', sans-serif; 
+}
+
 nav .list img {
     position: static;
 
@@ -26,6 +36,7 @@ nav .list li {
     margin-top: 40px;
     background-color: rgba(128, 128, 128, 0.493);
     padding: 5px 17px 5px 5px;
+    font-family: 'Manrope', sans-serif;
 
 }
 
@@ -49,16 +60,26 @@ nav .list {
 
 .line li a {
     border-bottom: solid #33469b;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
 }
 
 nav .list li a {
     text-decoration: none;
     color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
 }
 
 nav .list li a:hover {
     color: white;
     background-color: #33469b;
+<<<<<<< HEAD
+=======
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+>>>>>>> 5f164af56c13157bd631e431e14d44f3b64b8e54
 }
 
 .middel {
@@ -93,6 +114,7 @@ nav .list li a:hover {
 .kader li {
     margin: 20px;
     font-size: 25px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .pfbg {
@@ -132,20 +154,24 @@ nav .list li a:hover {
 
 .titel h1 {
     color: black;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-weight: 700;
     margin-bottom: 50px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .visitekaart h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 33px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .rij h2 {
     text-align: center;
     padding: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 33px;
 }
 
 .rij {
@@ -158,7 +184,7 @@ nav .list li a:hover {
 }
 
 footer h1 {
-    font-size: 50px;
+    font-size: 35px;
     margin-bottom: 50px;
     text-align: center;
     font-family: 'Manrope', sans-serif;
@@ -219,7 +245,7 @@ footer div {
 
 .visitekaart h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 33px;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -258,16 +284,19 @@ footer div {
 }
 
 .procestext h2 {
-    font-size: 35px;
+    font-size: 33px;
     padding-left: 50px;
     padding-top: 150px;
     color: #33469b;
+    font-family: 'Manrope', sans-serif;
 
 }
 
 .procestext p {
     padding-left: 0px;
     padding-top: 130px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
 
 }
 
@@ -279,7 +308,7 @@ footer div {
 /* footer*/
 footer h1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     margin-bottom: 10px;
     font-family: 'Manrope', sans-serif;
 }
@@ -303,6 +332,8 @@ footer h1 {
 footer .icon p {
     padding-bottom: 20px;
     text-decoration-style: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
 }
 
 footer .icon h1 {
@@ -313,14 +344,16 @@ footer .icon h1 {
 }
 
 .icon h2 {
-    font-size: 20px;
+    font-size: 33px;
     padding-left: 2%;
+    font-family: 'Manrope', sans-serif;
 
 }
 
 .icon a {
     font-size: 20px;
     text-decoration: none;
+    font-family: 'Manrope', sans-serif;
 
 }
 
@@ -334,11 +367,15 @@ footer .icon h1 {
 footer .icons p {
     margin-top: 10px;
     padding-bottom: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
 }
 
 footer .icons h1 {
     padding-top: 30px;
     margin-top: 50px;
+    font-size: 35px;
+    font-family: 'Manrope', sans-serif;
 }
 
 
@@ -404,10 +441,14 @@ footer .icons h1 {
 .content h2 {
     font-weight: bolder;
     padding-bottom: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 33px;
 }
 
 .content a {
     color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
 }
 
 /* Container around content */
@@ -577,7 +618,8 @@ div.desc {
 }
 
 .twp h2 {
-    font-size: 30px;
+    font-size: 33px;
+    font-family: 'Manrope', sans-serif;
 }
 
 * {
@@ -608,6 +650,7 @@ div.desc {
 
 .inner p {
     font-size: 25px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .colss {
@@ -818,6 +861,8 @@ div.desc {
 .examples p {
     text-align: center;
     margin-top: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
 }
 
 .examples img {
@@ -847,6 +892,8 @@ div.desc {
 
 .tuto h1 {
     padding-left: 100px;
+    font-size: 35px;
+    font-family: 'Manrope', sans-serif;
 }
 
 /* Add styles to the form container */
@@ -905,10 +952,11 @@ input[type=paswoord]:focus {
 }
 
 .wrapper h4 {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .spatie {
@@ -1023,8 +1071,9 @@ input[type=paswoord]:focus {
 .galerij-tekst h2 {
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 33px;
     padding-bottom: 20px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .galerij img {
@@ -1163,26 +1212,33 @@ input[type=paswoord]:focus {
 
 /*text tutorials*/
 .logtext h2 {
-    font-size: 35px;
+    font-size: 33px;
     text-align: center;
     padding-bottom: 20px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .logtext p {
     text-align: center;
     padding-bottom: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
+
 }
 
 .log h1 {
     margin: 0 auto;
     text-align: center;
+    font-size: 35px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .proces-h2 {
     padding-top: 20px;
     padding-bottom: 10px;
-    font-size: 35px;
+    font-size: 33px;
     text-align: center;
+    font-family: 'Manrope', sans-serif;
 }
 
 @media (max-width:900px) {
