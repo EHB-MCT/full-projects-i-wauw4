@@ -167,7 +167,7 @@ nav .list li a:hover {
 }
 
 footer h1 {
-    font-size: 35px;
+    font-size: 50px;
     margin-bottom: 50px;
     text-align: center;
     font-family: 'Manrope', sans-serif;
@@ -193,7 +193,7 @@ footer h1 {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-
+    font-size: 17px;
     font-size: 15px;
     color: white;
 }
@@ -228,7 +228,7 @@ footer div {
 
 .visitekaart h2 {
     text-align: center;
-    font-size: 33px;
+    font-size: 35px;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -268,15 +268,7 @@ footer div {
 .procestext h2 {
     font-size: 35px;
     padding-left: 50px;
-    padding-top: 150px;
     color: #33469b;
-
-}
-
-.procestext p {
-    padding-left: 0px;
-    padding-top: 130px;
-
 }
 
 .procestext img {
@@ -333,20 +325,17 @@ footer .icon p {
 footer .icons p {
     margin-top: 10px;
     padding-bottom: 10px;
-    font-size: 20px;
-    font-family: 'Manrope', sans-serif;
 }
 
 footer .icons h1 {
-    padding-top: 35px;
+    padding-top: 30px;
     margin-top: 50px;
-    font-family: 'Manrope', sans-serif;
 }
 
 
 .callme a {
     color: #33469b;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -406,14 +395,10 @@ footer .icons h1 {
 .content h2 {
     font-weight: bolder;
     padding-bottom: 10px;
-    font-family: 'Manrope', sans-serif;
-    font-size: 33px;
 }
 
 .content a {
     color: white;
-    font-family: 'Manrope', sans-serif;
-    font-size: 20px;
 }
 
 /* Container around content */
@@ -525,10 +510,13 @@ footer .icons h1 {
     }
 }
 
-
+/*gewerkt door NABRAS*/
 
 /*process PAGINA*/
 
+
+
+/* proces Nicolas*/
 
 .think {
     position: relative;
@@ -558,6 +546,17 @@ footer .icons h1 {
     width: 100%;
 }
 
+.woord {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
 
 div.desc {
     padding: 15px;
@@ -566,12 +565,13 @@ div.desc {
 
 .twp {
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
 }
 
 .twp h2 {
-    font-size: 33px;
-    font-family: 'Manrope', sans-serif;
-
+    font-size: 30px;
 }
 
 * {
@@ -588,7 +588,6 @@ div.desc {
     padding-bottom: 150px;
 }
 
-
 .cols {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -603,7 +602,6 @@ div.desc {
 
 .inner p {
     font-size: 25px;
-    font-family: 'Manrope', sans-serif;
 }
 
 .inner a {
@@ -787,7 +785,7 @@ div.desc {
     }
 }
 
-
+/*TOT HIER gewerkt door NABRAS*/
 
 /* Agenda na feedback*/
 .filter {
@@ -811,7 +809,7 @@ div.desc {
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
+
     width: 180px;
     align-items: center;
 }
@@ -841,8 +839,6 @@ div.desc {
 .examples p {
     text-align: center;
     margin-top: 10px;
-    font-size: 25px;
-    font-family: 'Manrope', sans-serif;
 }
 
 .examples img {
@@ -935,11 +931,10 @@ input[type=paswoord]:focus {
 }
 
 .wrapper h4 {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: 'Manrope', sans-serif;
 }
 
 .spatie {
@@ -1164,13 +1159,12 @@ input[type=paswoord]:focus {
 .login {
     background-color: #33469b;
     color: white;
-    padding: 16px 20px;
-
+    text-decoration: none;
+    padding: 10px;
     border: none;
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
-
 }
 
 .login:hover {
@@ -1189,32 +1183,26 @@ input[type=paswoord]:focus {
 
 /*text tutorials*/
 .logtext h2 {
-    font-size: 33px;
+    font-size: 35px;
     text-align: center;
     padding-bottom: 20px;
-    font-family: 'Manrope', sans-serif;
 }
 
 .logtext p {
     text-align: center;
     padding-bottom: 20px;
-    font-size: 25px;
-    font-family: 'Manrope', sans-serif;
 }
 
 .log h1 {
     margin: 0 auto;
     text-align: center;
-    font-size: 35px;
-    font-family: 'Manrope', sans-serif;
 }
 
 .proces-h2 {
     padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 33px;
+    padding-bottom: 40px;
+    font-size: 35px;
     text-align: center;
-    font-family: 'Manrope', sans-serif;
 }
 
 @media (max-width:900px) {
@@ -1223,6 +1211,14 @@ input[type=paswoord]:focus {
         padding-top: 30px;
         margin: 2rem;
         width: auto;
+    }
+
+    .cilinder {
+        display: flex;
+    }
+
+    .cilinder div {
+        flex: 1;
     }
 
     .kader ul li {
@@ -1269,6 +1265,14 @@ input[type=paswoord]:focus {
         margin-bottom: 10px;
     }
 
+    .cilinder {
+        display: flex;
+    }
+
+    .cilinder div {
+        flex: 1;
+    }
+
     .kader ul {
         padding-right: 100px;
     }
@@ -1298,6 +1302,20 @@ input[type=paswoord]:focus {
 
 @media (max-width:480px) {
 
+    .kader ul {
+        border: 7px solid white;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .twp {
+        display: flex;
+    }
+
+    .twp div {
+        flex: 1;
+    }
+
     .kader {
         padding-top: 30px;
         margin: 2rem;
@@ -1318,7 +1336,7 @@ input[type=paswoord]:focus {
 
 
     .icon h1 {
-        font-size: 29px;
+        font-size: 10px;
         color: #33469b;
         padding-top: 20px;
         font-family: 'Manrope', sans-serif;
