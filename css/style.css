@@ -1330,9 +1330,10 @@ input[type=paswoord]:focus {
         font-size: 14px;
     }
 
-    .kader img {
+    .kader {
+        padding-top: 30px;
+        margin: 2rem;
         width: auto;
-
     }
 
     .kader ul {}
@@ -1411,7 +1412,7 @@ input[type=paswoord]:focus {
 
     .visitekaart h2 {
         text-align: center;
-        font-size: 29px;
+        font-size: 19px;
         font-family: 'Manrope', sans-serif;
     }
 
