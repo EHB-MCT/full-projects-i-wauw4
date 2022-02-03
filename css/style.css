@@ -22,7 +22,7 @@ nav .list img {
 
 }
 
-nav .list li {
+nav .list ul li {
     display: inline-block;
     font-size: 20px;
     margin-top: 40px;
@@ -223,7 +223,7 @@ footer div {
 
 .card {
     display: flex;
-    width: 25%;
+    width: 80%;
     padding: 5px;
     flex-direction: column;
 }
@@ -240,6 +240,7 @@ footer div {
 
 .rij {
     display: flex;
+    flex-direction: column;
 }
 
 /* PROCES*/
@@ -1272,7 +1273,7 @@ input[type=paswoord]:focus {
         flex: 1;
     }
 
-    
+
 
     .kader ul li {
         font-size: 20px;
@@ -1388,10 +1389,6 @@ input[type=paswoord]:focus {
         padding-top: 30px;
         margin: 2rem;
         width: auto;
-    }
-
-    .kader ul {
-
     }
 
 
@@ -1689,6 +1686,10 @@ input[type=paswoord]:focus {
         margin-bottom: 10px;
     }
 
+    .rij {
+        margin: 0 auto;
+    }
+
     .kader ul {
         padding-right: 300px;
     }
@@ -1702,12 +1703,8 @@ input[type=paswoord]:focus {
         margin-bottom: 30px;
     }
 
-
-
     .procestext img {
         width: 80%;
-        padding-right:
-
     }
 
     .twp {
@@ -1731,7 +1728,9 @@ input[type=paswoord]:focus {
 
     .procestext p {
         padding-top: 10px;
+    }
 
+}
 
 @media (max-width:320px) {
 
@@ -1752,7 +1751,7 @@ input[type=paswoord]:focus {
     .kader {
         padding-top: 30px;
         margin-left: 0%;
-        
+
     }
 
     .kader ul li {
@@ -1761,12 +1760,12 @@ input[type=paswoord]:focus {
     }
 
     .kader {
-        
-        
-     display: none;
+
+
+        display: none;
     }
 
-    
+
 
 
     .icon h1 {
@@ -2104,5 +2103,5 @@ input[type=paswoord]:focus {
         flex-wrap: wrap;
     }
 
-   
+
 }
