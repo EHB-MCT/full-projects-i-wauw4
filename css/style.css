@@ -12,16 +12,13 @@
     }
 
     .footer-title {
-        padding-top: 1px;
+        font-size: 20px;
+        color: #33469b;
+        padding-top: 20px;
         font-family: 'Manrope', sans-serif;
     }
-
-    .icon h2 {
-        font-size: 20px;
-        padding-left: 2%;
-        color: #33469b;
-    }
 }
+
 
 @media (max-width:700px) {
     .kader ul li {
@@ -53,16 +50,11 @@
     }
 
     .footer-title {
-
-        font-size: 50px;
+        font-size: 15px;
+        color: #33469b;
+        padding-top: 25px;
         font-family: 'Manrope', sans-serif;
     }
-
-    .icon h2 {
-        padding-left: 2%;
-        color: #33469b;
-    }
-
 }
 
 
@@ -363,14 +355,10 @@ footer .icon p {
 }
 
 .footer-title {
-    padding-top: 10px;
+    font-size: 30px;
+    color: #33469b;
+    padding-top: 20px;
     font-family: 'Manrope', sans-serif;
-}
-
-.icon h2 {
-    font-size: 20px;
-    padding-left: 2%;
-
 }
 
 .icon a {
