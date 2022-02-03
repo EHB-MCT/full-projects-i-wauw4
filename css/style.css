@@ -1660,7 +1660,7 @@ input[type=paswoord]:focus {
     .kader {
         
         
-        width: auto;
+     display: none;
     }
 
     
@@ -1948,4 +1948,6 @@ input[type=paswoord]:focus {
         flex-direction: column;
         flex-wrap: wrap;
     }
+
+   
 }
