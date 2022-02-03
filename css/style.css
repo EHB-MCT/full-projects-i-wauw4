@@ -15,14 +15,14 @@ body {
     background-attachment: fixed;
 }
 
-h1{
+h1 {
     font-size: 35px;
     font-family: 'Manrope', sans-serif;
 }
 
-h2{
+h2 {
     font-size: 33px;
-    font-family: 'Manrope', sans-serif; 
+    font-family: 'Manrope', sans-serif;
 }
 
 nav .list img {
@@ -74,12 +74,10 @@ nav .list li a {
 nav .list li a:hover {
     color: white;
     background-color: #33469b;
-<<<<<<< HEAD
-=======
-    padding: 0;
+    <<<<<<< HEAD=======padding: 0;
     font-family: 'Manrope', sans-serif;
     font-size: 20px;
->>>>>>> 5f164af56c13157bd631e431e14d44f3b64b8e54
+    >>>>>>>5f164af56c13157bd631e431e14d44f3b64b8e54
 }
 
 .middel {
@@ -118,7 +116,7 @@ nav .list li a:hover {
 }
 
 .pfbg {
-    background: url("../images/index/Asset-2.png") no-repeat;
+    background: url("../images/index/1x/Asset-2.png") no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -137,7 +135,7 @@ nav .list li a:hover {
 }
 
 .agendaNav {
-    background: url("../images/index/Asset-12.jpg") no-repeat;
+    background: url("../images/index/1x/Asset-12.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
