@@ -22,7 +22,7 @@ nav .list img {
 
 }
 
-nav .list li {
+nav .list ul li {
     display: inline-block;
     font-size: 20px;
     margin-top: 40px;
@@ -67,7 +67,6 @@ nav .list li a:hover {
     color: white;
     background-color: #33469b;
     font-family: 'Manrope', sans-serif;
-    font-size: 20px;
 }
 
 .middel {
@@ -173,7 +172,7 @@ nav .list li a:hover {
 }
 
 footer h1 {
-    font-size: 50px;
+    font-size: 35px;
     margin-bottom: 50px;
     text-align: center;
     font-family: 'Manrope', sans-serif;
@@ -223,7 +222,7 @@ footer div {
 
 .card {
     display: flex;
-    width: 25%;
+    width: 80%;
     padding: 5px;
     flex-direction: column;
 }
@@ -273,12 +272,6 @@ footer div {
     margin: 0 auto;
 }
 
-.procestext h2 {
-    font-size: 35px;
-    color: #33469b;
-    align-items: center;
-}
-
 .procestext img {
     width: 80%;
     padding-left: 50px;
@@ -287,7 +280,6 @@ footer div {
 /* footer*/
 footer h1 {
     text-align: center;
-    font-size: 25px;
     margin-bottom: 10px;
     font-family: 'Manrope', sans-serif;
 }
@@ -308,13 +300,6 @@ footer h1 {
 footer .icon p {
     padding-bottom: 20px;
     text-decoration-style: none;
-}
-
-.footer-title {
-    font-size: 30px;
-    color: #33469b;
-    padding-top: 20px;
-    font-family: 'Manrope', sans-serif;
 }
 
 .icon a {
@@ -339,7 +324,6 @@ footer .icons h1 {
     padding-top: 30px;
     margin-top: 50px;
 }
-
 
 .callme a {
     color: #33469b;
@@ -571,11 +555,6 @@ div.desc {
     text-align: center;
 }
 
-.procestext p {
-    padding-top: 10px;
-    align-items: center;
-}
-
 .twp {
     display: flex;
     align-items: center;
@@ -598,8 +577,6 @@ div.desc {
 
 
 .procestext {
-    padding-top: 0%;
-    font-size: 20px;
     text-align: center;
     padding: 5px;
     padding-bottom: 50px;
@@ -610,12 +587,6 @@ div.desc {
     text-align: center;
     padding-top: 10px;
     color: #33469b;
-
-}
-
-.procestext p {
-    padding-left: 0px;
-    padding-top: 10px;
 
 }
 
@@ -1059,7 +1030,6 @@ input[type=paswoord]:focus {
     font-size: 20px;
     line-height: 30px;
     font-family: 'Manrope', sans-serif;
-
 }
 
 .modal-content li strong {
@@ -1076,7 +1046,6 @@ input[type=paswoord]:focus {
 
 .modal-content video {
     width: 300px;
-
 }
 
 /* The Close Button */
@@ -1272,8 +1241,6 @@ input[type=paswoord]:focus {
         flex: 1;
     }
 
-
-
     .kader ul li {
         font-size: 20px;
         margin-bottom: 10px;
@@ -1296,7 +1263,7 @@ input[type=paswoord]:focus {
         width: 100%;
     }
 
-   
+
 
     .card img {
         width: 100%;
@@ -1327,7 +1294,6 @@ input[type=paswoord]:focus {
     }
 
     .icon h1 {
-        font-size: 20px;
         color: #33469b;
         padding-top: 20px;
         font-family: 'Manrope', sans-serif;
@@ -1348,6 +1314,15 @@ input[type=paswoord]:focus {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .rij {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kader ul {
+        display: none;
     }
 
 }
@@ -1389,11 +1364,8 @@ input[type=paswoord]:focus {
         width: auto;
     }
 
-    .kader ul {}
-
 
     .icon h1 {
-        font-size: 10px;
         color: #33469b;
         padding-top: 20px;
         font-family: 'Manrope', sans-serif;
@@ -1428,11 +1400,6 @@ input[type=paswoord]:focus {
         background-color: #33469b;
         font-family: 'Manrope', sans-serif;
         font-size: 14px;
-    }
-
-    .procestext p {
-        padding-top: 10px;
-        align-items: center;
     }
 
     .indexTitel h1 {
@@ -1680,14 +1647,23 @@ input[type=paswoord]:focus {
         flex-direction: column;
         flex-wrap: wrap;
     }
+
+    .rij {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width:320px) {
 
-   .kader ul li {
+    .kader ul li {
         font-size: 15px;
         margin-right: 300px;
         margin-bottom: 10px;
+    }
+
+    .rij {
+        margin: 0 auto;
     }
 
     .kader ul {
@@ -1703,12 +1679,8 @@ input[type=paswoord]:focus {
         margin-bottom: 30px;
     }
 
-
-
     .procestext img {
         width: 80%;
-        padding-right:
-
     }
 
     .twp {
@@ -1732,387 +1704,287 @@ input[type=paswoord]:focus {
 
     .procestext p {
         padding-top: 10px;
-
-
     }
 
-    
-
-        .kader ul {
-            border: 7px solid white;
-            text-align: center;
-            margin: 0 auto;
-        }
-
-        .twp {
-            display: flex;
-        }
-
-        .twp div {
-            flex: 1;
-        }
-
-        .kader {
-            padding-top: 30px;
-            margin-left: 0%;
-
-        }
-
-        .kader ul li {
-            margin-bottom: 10px;
-            font-size: 14px;
-        }
-
-        .kader {
-
-
-            display: none;
-        }
-
-
-
-
-        .icon h1 {
-            font-size: 10px;
-            color: #33469b;
-            padding-top: 20px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        .popup {
-            font-size: 15px;
-        }
-
-        .popup:hover {
-            font-size: 15px;
-        }
-
-        .flex-wrapper {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-        }
-
-
-        nav .list li {
-            display: inline-block;
-            font-size: 10px;
-            margin-top: 40px;
-            background-color: #33469b91;
-            padding: 5px 17px 5px 5px;
-
-        }
-
-        nav .list li a:hover {
-            color: white;
-            background-color: #33469b;
-            font-family: 'Manrope', sans-serif;
-            font-size: 10px;
-        }
-
-        .indexTitel h1 {
-            text-align: center;
-            font-size: 20px;
-            font-family: 'Manrope', sans-serif;
-
-        }
-
-        .titel h1 {
-            color: black;
-            font-size: 10px;
-            text-align: center;
-            font-weight: 700;
-            margin-bottom: 50px;
-        }
-
-        .visitekaart h2 {
-            text-align: center;
-            font-size: 9px;
-        }
-
-        .rij h2 {
-            text-align: center;
-            padding: 10px;
-            font-size: 20;
-        }
-
-        footer h1 {
-            font-size: 20px;
-            margin-bottom: 20px;
-            text-align: center;
-            font-family: 'Manrope', sans-serif;
-        }
-
-
-        footer .icon h1 {
-            padding-top: 50px;
-            color: #33469b;
-            font-size: 20px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-
-        .callme a {
-            color: #33469b;
-            font-size: 15px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        nav .list img {
-            position: static;
-        }
-
-        nav .list ul li {
-            display: inline-block;
-            font-size: 20px;
-            margin-top: 40px;
-            background-color: rgba(128, 128, 128, 0.493);
-
-
-        }
-
-        nav .list ul {
-            width: 50%;
-            display: flex;
-            justify-content: right;
-            align-items: center;
-            position: fixed;
-            z-index: 1;
-        }
-
-        .line li a {
-            border-bottom: solid #33469b;
-            padding: 5%;
-        }
-
-        nav .list ul li a {
-            text-decoration: none;
-            color: white;
-        }
-
-        nav .list ul li a:hover {
-            color: white;
-            background-color: #33469b;
-        }
-
-        .visitekaart h2 {
-            text-align: center;
-            font-size: 10px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        .procestext {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: auto;
-
-            font-size: 10px;
-
-        }
-
-        .procestext h2 {
-            font-size: 20px;
-
-            color: #33469b;
-
-        }
-
-        footer h1 {
-            text-align: center;
-            font-size: 10px;
-            margin-bottom: 10px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        footer .icon p {
-            padding-bottom: 14px;
-            text-decoration-style: none;
-        }
-
-        .footer-title {
-            font-size: 20px;
-            color: #33469b;
-            padding-top: 20px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        .icon a {
-            font-size: 10px;
-            text-decoration: none;
-
-        }
-
-        footer .icons p {
-            margin-top: 10px;
-            padding-bottom: 10px;
-            font-size: 10px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        footer .icons h1 {
-            padding-top: 20px;
-            margin-top: 50px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        .callme a {
-            color: #33469b;
-            font-size: 10px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        .content h2 {
-            font-weight: bolder;
-            padding-bottom: 10px;
-            font-family: 'Manrope', sans-serif;
-            font-size: 20px;
-        }
-
-        .content a {
-            color: white;
-            font-family: 'Manrope', sans-serif;
-            font-size: 10px;
-        }
-
-        .twp h2 {
-            font-size: 20px;
-            font-family: 'Manrope', sans-serif;
-
-        }
-
-        .inner p {
-            font-size: 20px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        .inner a {
-
-            font-size: 10px;
-            color: #ffffff;
-            border: none;
-            background-color: #ccc;
-            cursor: pointer;
-            text-decoration: none;
-
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-
-
-        .inner a:hover {
-            font-size: 10px;
-            background-color: #33469b;
-            color: #ffffff;
-            border: none;
-            cursor: pointer;
-            text-decoration: none;
-
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-
-        .examples p {
-            text-align: center;
-            margin-top: 10px;
-            font-size: 10px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        .wrapper h4 {
-            font-size: 20px;
-            text-align: center;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        .overlay h5 {
-            font-size: 70px;
-            margin-left: 10px;
-        }
-
-        .modal-content h1 {
-            font-size: 20px;
-            text-align: center;
-            margin: 15px;
-            font-family: 'Manrope', sans-serif;
-            margin-bottom: 20px;
-        }
-
-        .modal-content p {
-            font-size: 10px;
-            line-height: 30px;
-            font-family: 'Manrope', sans-serif;
-            margin-bottom: 20px;
-        }
-
-        .modal-content li {
-            font-size: 10px;
-            line-height: 30px;
-            font-family: 'Manrope', sans-serif;
-
-        }
-
-        .modal-content li strong {
-            font-size: 10px;
-            line-height: 30px;
-            font-family: 'Manrope', sans-serif;
-            font-weight: bold;
-
-        }
-
-
-        .logtext h2 {
-            font-size: 20px;
-            text-align: center;
-            padding-bottom: 20px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        .logtext p {
-            text-align: center;
-            padding-bottom: 20px;
-            font-size: 10px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        .log h1 {
-            margin: 0 auto;
-            text-align: center;
-            font-size: 20px;
-            font-family: 'Manrope', sans-serif;
-        }
-
-        .proces-h2 {
-            padding-top: 20px;
-            padding-bottom: 10px;
-            font-size: 20px;
-            text-align: center;
-            font-family: 'Manrope', sans-serif;
-
-        }
-
-        .popup {
-            font-size: 10px;
-        }
-
-        .popup:hover {
-            font-size: 10px;
-        }
-
-        .flex-wrapper {
-            align-items: center;
-            width: 100%;
-            height: 0 auto;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-        }   
-    
-    
-    } 
+    .rij {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.kader ul {
+    border: 7px solid white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.twp {
+    display: flex;
+}
+
+.twp div {
+    flex: 1;
+}
+
+.kader {
+    padding-top: 30px;
+}
+
+.kader ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.icon h1 {
+    color: #33469b;
+    padding-top: 20px;
+    font-family: 'Manrope', sans-serif;
 }
 
 
-    
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+nav .list li {
+    display: inline-block;
+    margin-top: 40px;
+    background-color: #33469b91;
+    padding: 5px 17px 5px 5px;
+}
+
+nav .list li a:hover {
+    color: white;
+    background-color: #33469b;
+    font-family: 'Manrope', sans-serif;
+}
+
+.indexTitel h1 {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.titel h1 {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.rij h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 20;
+}
+
+footer h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+footer .icon h1 {
+    padding-top: 35px;
+    color: #33469b;
+    font-family: 'Manrope', sans-serif;
+}
+
+nav .list img {
+    position: static;
+}
+
+nav .list ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: rgba(128, 128, 128, 0.493);
+
+
+}
+
+nav .list ul {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.line li a {
+    border-bottom: solid #33469b;
+    padding: 5%;
+}
+
+nav .list ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .list ul li a:hover {
+    color: white;
+    background-color: #33469b;
+}
+
+.visitekaart h2 {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.procestext {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+footer h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Manrope', sans-serif;
+}
+
+footer .icon p {
+    padding-bottom: 14px;
+    text-decoration-style: none;
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+footer .icons p {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-family: 'Manrope', sans-serif;
+}
+
+footer .icons h1 {
+    padding-top: 20px;
+    margin-top: 50px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.callme a {
+    color: #33469b;
+    font-family: 'Manrope', sans-serif;
+}
+
+.content h2 {
+    font-weight: bolder;
+    padding-bottom: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+}
+
+.content a {
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 10px;
+}
+
+.twp h2 {
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.inner p {
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.inner a {
+    font-size: 10px;
+    color: #ffffff;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.inner a:hover {
+    font-size: 10px;
+    background-color: #33469b;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.examples p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.wrapper h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.overlay h5 {
+    font-size: 70px;
+    margin-left: 10px;
+}
+
+.modal-content h1 {
+    text-align: center;
+    margin: 15px;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 20px;
+}
+
+.modal-content li {
+    line-height: 30px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.modal-content li strong {
+    line-height: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+
+.logtext h2 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.logtext p {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.log h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.proces-h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
