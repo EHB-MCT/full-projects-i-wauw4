@@ -1,61 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap');
 
-@media (max-width:900px) {
-
-    .kader {
-        padding-top: 30px;
-    }
-
-    .kader ul li {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-
-    .footer-title {
-        font-size: 20px;
-        color: #33469b;
-        padding-top: 20px;
-        font-family: 'Manrope', sans-serif;
-    }
-}
-
-
-@media (max-width:700px) {
-    .kader ul li {
-        font-size: 15px;
-        margin-right: 300px;
-        margin-bottom: 10px;
-    }
-
-    .kader ul {
-        padding-right: 300px;
-    }
-
-    .icon h2 {
-        font-size: 20px;
-        padding-left: 2%;
-        color: #33469b;
-    }
-}
-
-@media (max-width:480px) {
-
-    .kader {
-        padding-top: 30px;
-    }
-
-    .kader ul li {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-
-    .footer-title {
-        font-size: 15px;
-        color: #33469b;
-        padding-top: 30px;
-        font-family: 'Manrope', sans-serif;
-    }
-
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 html {
@@ -76,7 +23,7 @@ nav .list li {
     display: inline-block;
     font-size: 20px;
     margin-top: 40px;
-    background-color: rgba(128, 128, 128, 0.493);
+    background-color: #33469b91;
     padding: 5px 17px 5px 5px;
 
 }
@@ -111,7 +58,8 @@ nav .list li a {
 nav .list li a:hover {
     color: white;
     background-color: #33469b;
-    padding: 5px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
 }
 
 .middel {
@@ -149,7 +97,7 @@ nav .list li a:hover {
 }
 
 .pfbg {
-    background: url("../images/index/Asset-2.png") no-repeat;
+    background: url("../images/index/1x/Asset-2.png") no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -168,7 +116,7 @@ nav .list li a:hover {
 }
 
 .agendaNav {
-    background: url("../images/index/Asset-12.jpg") no-repeat;
+    background: url("../images/index/1x/Asset-12.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -347,6 +295,8 @@ footer h1 {
     background-color: rgba(0, 0, 0, 0.068);
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
+    color: #33469b;
+    padding-top: 30px;
 }
 
 footer .icon p {
@@ -654,7 +604,7 @@ div.desc {
 }
 
 .inner a {
-    
+
     font-size: 20px;
     color: #ffffff;
     border: none;
@@ -968,6 +918,11 @@ input[type=paswoord]:focus {
     flex-wrap: wrap;
 }
 
+.icon i {
+    font-size: 50px;
+    color: #33469b;
+}
+
 .flex-wrap-item-tuto {
     width: 33%;
     margin-top: 20px;
@@ -1271,6 +1226,26 @@ input[type=paswoord]:focus {
     }
 }
 
+@media (max-width:900px) {
+
+    .kader {
+        padding-top: 30px;
+    }
+
+    .kader ul li {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-title {
+        font-size: 20px;
+        color: #33469b;
+        padding-top: 20px;
+        font-family: 'Manrope', sans-serif;
+    }
+}
+
+
 @media (max-width:700px) {
     .kader ul li {
         font-size: 15px;
@@ -1282,7 +1257,30 @@ input[type=paswoord]:focus {
         padding-right: 300px;
     }
 
-    .modal-content img {
-        width: 50%;
+    .icon h1 {
+        font-size: 20px;
+        color: #33469b;
+        padding-top: 20px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .kader {
+        padding-top: 30px;
+    }
+
+    .kader ul li {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .icon h1 {
+        font-size: 10px;
+        color: #33469b;
+        padding-top: 20px;
+        font-family: 'Manrope', sans-serif;
     }
 }
