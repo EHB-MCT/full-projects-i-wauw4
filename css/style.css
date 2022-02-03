@@ -52,11 +52,11 @@
     .footer-title {
         font-size: 15px;
         color: #33469b;
-        padding-top: 25px;
+        padding-top: 30px;
         font-family: 'Manrope', sans-serif;
     }
-}
 
+}
 
 html {
     scroll-behavior: smooth;
