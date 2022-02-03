@@ -87,9 +87,10 @@ nav .list li a:hover {
     align-items: center;
 }
 
-.kader ul {
+.whiteKader {
     border: 7px solid white;
 }
+
 
 .kader img {
     width: 320px;
