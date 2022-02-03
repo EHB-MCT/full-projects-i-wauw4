@@ -1321,6 +1321,10 @@ input[type=paswoord]:focus {
         flex-direction: column;
     }
 
+    .kader ul {
+        display: none;
+    }
+
 }
 
 @media (max-width:480px) {
@@ -1725,19 +1729,11 @@ input[type=paswoord]:focus {
 
 .kader {
     padding-top: 30px;
-    margin-left: 0%;
-
 }
 
 .kader ul li {
     margin-bottom: 10px;
     font-size: 14px;
-}
-
-.kader {
-
-
-    display: none;
 }
 
 .icon h1 {
