@@ -149,28 +149,19 @@ wauw.workshops@gmail.com
 
 ____________________________________________________________________________________________________________________________
 
-
-
 Tutorials login pagina
 
 
 Vraag u toegangs code via onze email. wauwworkshops@gmail.com
-
-
 
 Volg ons via sociale media
 
 +123 123 12 32 12
 
 wauw.workshops@gmail.com
-
 ______________________________________________________________________________________________________________________________
 
-
-
 Tutorial video pagina
-
-
 
 Het nieuw goud
 
@@ -181,7 +172,6 @@ Beton
 Plastic
 
 Algen
-
 
 Volg ons via sociale media
 

@@ -1171,13 +1171,12 @@ input[type=paswoord]:focus {
 .login {
     background-color: #33469b;
     color: white;
-    padding: 16px 20px;
-
+    text-decoration: none;
+    padding: 10px;
     border: none;
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
-
 }
 
 .login:hover {
@@ -1279,6 +1278,7 @@ input[type=paswoord]:focus {
     .popup:hover {
         font-size: 15px;
     }
+
     .flex-wrapper {
         display: flex;
         flex-direction: column;
@@ -1288,6 +1288,12 @@ input[type=paswoord]:focus {
 }
 
 @media (max-width:480px) {
+
+    .kader ul {
+        border: 7px solid white;
+        text-align: center;
+        margin: 0 auto;
+    }
 
     .kader {
         padding-top: 30px;
@@ -1314,6 +1320,8 @@ input[type=paswoord]:focus {
 
     .popup:hover {
         font-size: 15px;
+    }
+
     .flex-wrapper {
         display: flex;
         flex-direction: column;
