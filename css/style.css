@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap');
 
-.twp img {
-    max-width: 100%;
-    height: auto;
-}
 /*Bronnen
 https://codepen.io/nicolaspavlotsky/pen/wqGgLO
 https://www.w3schools.com/howto/howto_js_filter_elements.asp
@@ -33,6 +29,11 @@ nav .list li {
     background-color: #33469b91;
     padding: 5px 17px 5px 5px;
 
+}
+
+.twp img {
+    max-width: 100%;
+    height: auto;
 }
 
 .tutor {
