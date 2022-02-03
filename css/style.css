@@ -1071,7 +1071,7 @@ input[type=paswoord]:focus {
     border: none;
 
     font-size: 25px;
-    margin-left: 75px;
+    
     background-color: #ccc;
     color: #33469b;
     padding: 10px;
