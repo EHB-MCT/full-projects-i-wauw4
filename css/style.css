@@ -166,6 +166,12 @@ nav .list li a:hover {
     text-align: center;
 }
 
+.procestext p {
+    padding-top: 10px;
+    align-items: center;
+    margin: 0 auto;
+}
+
 footer h1 {
     font-size: 50px;
     margin-bottom: 50px;
@@ -263,12 +269,14 @@ footer div {
     font-size: 25px;
     padding: 5px;
     padding-bottom: 50px;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .procestext h2 {
     font-size: 35px;
-    padding-left: 50px;
     color: #33469b;
+    align-items: center;
 }
 
 .procestext img {
@@ -563,16 +571,59 @@ div.desc {
     text-align: center;
 }
 
-.twp {
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-    display: block;
+.procestext p {
+    padding-top: 10px;
+    align-items: center;
 }
 
-.twp h2 {
-    font-size: 30px;
+.twp {
+    display: flex;
+    align-items: center;
+    width: 33.33%;
+    padding-bottom: 50px;
 }
+
+/* Clear floats after image containers */
+.thinkworkplay::after {
+
+    clear: both;
+    display: flex;
+}
+
+
+.twptext::after {
+    clear: both;
+    display: table;
+}
+
+
+.procestext {
+    padding-top: 0%;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+
+.procestext h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    color: #33469b;
+
+}
+
+.procestext p {
+    padding-left: 0px;
+    padding-top: 10px;
+
+}
+
+.procestext img {
+    width: 80%;
+    padding-left: 50px;
+}
+
 
 * {
     margin: 0;
@@ -1377,6 +1428,11 @@ input[type=paswoord]:focus {
         font-size: 14px;
     }
 
+    .procestext p {
+        padding-top: 10px;
+        align-items: center;
+    }
+
     .indexTitel h1 {
         text-align: center;
         font-size: 29px;
@@ -1418,17 +1474,16 @@ input[type=paswoord]:focus {
 
     .procestext {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         margin-bottom: auto;
-
+        align-items: center;
         font-size: 19px;
 
     }
 
     .procestext h2 {
         font-size: 29px;
-
+        align-items: center;
         color: #33469b;
 
     }
@@ -1577,7 +1632,6 @@ input[type=paswoord]:focus {
 
     }
 
-
     .logtext h2 {
         font-size: 27px;
         text-align: center;
@@ -1621,4 +1675,116 @@ input[type=paswoord]:focus {
         flex-direction: column;
         flex-wrap: wrap;
     }
+}
+
+@media (max-width:320px) {
+    .kader ul li {
+        font-size: 15px;
+        margin-right: 300px;
+        margin-bottom: 10px;
+    }
+
+    .kader ul {
+        padding-right: 300px;
+    }
+
+    .pfbg {
+        background: url("../images/index/1x/Asset-2.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: auto;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+
+
+    .procestext img {
+        width: 80%;
+        padding-right:
+
+    }
+
+    .twp {
+        display: flex;
+        align-items: center;
+        width: 33.33%;
+        padding-bottom: 50px;
+    }
+
+    .twptext::after {
+        clear: left;
+        display: flex;
+    }
+
+    .procestext h2 {
+        font-size: 35px;
+        text-align: center;
+        padding-top: 10px;
+        color: #33469b;
+    }
+
+    .procestext p {
+        padding-top: 10px;
+    }
+
+    footer h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+    }
+
+
+    footer .icon h1 {
+        padding-top: 50px;
+        color: #33469b;
+        font-size: 20px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+
+    .callme a {
+        color: #33469b;
+        font-size: 15px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    nav .list img {
+        position: static;
+    }
+
+    nav .list ul li {
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 40px;
+        background-color: rgba(128, 128, 128, 0.493);
+
+
+    }
+
+    nav .list ul {
+        width: 50%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .line li a {
+        border-bottom: solid #33469b;
+        padding: 5%;
+    }
+
+    nav .list ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav .list ul li a:hover {
+        color: white;
+        background-color: #33469b;
+    }
+
 }
