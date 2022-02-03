@@ -1325,6 +1325,7 @@ input[type=paswoord]:focus {
     .kader ul li {
         margin-bottom: 10px;
         font-size: 14px;
+        padding: 0%;
     }
 
     .kader {
@@ -1333,7 +1334,9 @@ input[type=paswoord]:focus {
         width: auto;
     }
 
-    .kader ul {}
+    .kader ul {
+
+    }
 
 
     .icon h1 {
@@ -1600,6 +1603,328 @@ input[type=paswoord]:focus {
         padding-top: 20px;
         padding-bottom: 10px;
         font-size: 27px;
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+
+    }
+
+    .popup {
+        font-size: 10px;
+    }
+
+    .popup:hover {
+        font-size: 10px;
+    }
+
+    .flex-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media (max-width:320px) {
+
+    .kader ul {
+        border: 7px solid white;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .twp {
+        display: flex;
+    }
+
+    .twp div {
+        flex: 1;
+    }
+
+    .kader {
+        padding-top: 30px;
+        margin-left: 0%;
+        
+    }
+
+    .kader ul li {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .kader {
+        
+        
+        width: auto;
+    }
+
+    
+
+
+    .icon h1 {
+        font-size: 10px;
+        color: #33469b;
+        padding-top: 20px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .popup {
+        font-size: 15px;
+    }
+
+    .popup:hover {
+        font-size: 15px;
+    }
+
+    .flex-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    nav .list li {
+        display: inline-block;
+        font-size: 10px;
+        margin-top: 40px;
+        background-color: #33469b91;
+        padding: 5px 17px 5px 5px;
+
+    }
+
+    nav .list li a:hover {
+        color: white;
+        background-color: #33469b;
+        font-family: 'Manrope', sans-serif;
+        font-size: 10px;
+    }
+
+    .indexTitel h1 {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Manrope', sans-serif;
+
+    }
+
+    .titel h1 {
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+
+    .visitekaart h2 {
+        text-align: center;
+        font-size: 9px;
+    }
+
+    .rij h2 {
+        text-align: center;
+        padding: 10px;
+        font-size: 20;
+    }
+
+    footer h1 {
+        font-size: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .visitekaart h2 {
+        text-align: center;
+        font-size: 10px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .procestext {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+
+        font-size: 10px;
+
+    }
+
+    .procestext h2 {
+        font-size: 20px;
+
+        color: #33469b;
+
+    }
+
+    footer h1 {
+        text-align: center;
+        font-size: 10px;
+        margin-bottom: 10px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    footer .icon p {
+        padding-bottom: 14px;
+        text-decoration-style: none;
+    }
+
+    .footer-title {
+        font-size: 20px;
+        color: #33469b;
+        padding-top: 20px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .icon a {
+        font-size: 10px;
+        text-decoration: none;
+
+    }
+
+    footer .icons p {
+        margin-top: 10px;
+        padding-bottom: 10px;
+        font-size: 10px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    footer .icons h1 {
+        padding-top: 20px;
+        margin-top: 50px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .callme a {
+        color: #33469b;
+        font-size: 10px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .content h2 {
+        font-weight: bolder;
+        padding-bottom: 10px;
+        font-family: 'Manrope', sans-serif;
+        font-size: 20px;
+    }
+
+    .content a {
+        color: white;
+        font-family: 'Manrope', sans-serif;
+        font-size: 10px;
+    }
+
+    .twp h2 {
+        font-size: 20px;
+        font-family: 'Manrope', sans-serif;
+
+    }
+
+    .inner p {
+        font-size: 20px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .inner a {
+
+        font-size: 10px;
+        color: #ffffff;
+        border: none;
+        background-color: #ccc;
+        cursor: pointer;
+        text-decoration: none;
+
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+    .inner a:hover {
+        font-size: 10px;
+        background-color: #33469b;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .examples p {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 10px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .wrapper h4 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .overlay h5 {
+        font-size: 70px;
+        margin-left: 10px;
+    }
+
+    .modal-content h1 {
+        font-size: 20px;
+        text-align: center;
+        margin: 15px;
+        font-family: 'Manrope', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .modal-content p {
+        font-size: 10px;
+        line-height: 30px;
+        font-family: 'Manrope', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .modal-content li {
+        font-size: 10px;
+        line-height: 30px;
+        font-family: 'Manrope', sans-serif;
+
+    }
+
+    .modal-content li strong {
+        font-size: 10px;
+        line-height: 30px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: bold;
+
+    }
+
+
+    .logtext h2 {
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .logtext p {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 10px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .log h1 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .proces-h2 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 20px;
         text-align: center;
         font-family: 'Manrope', sans-serif;
 
