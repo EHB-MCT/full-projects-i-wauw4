@@ -656,26 +656,28 @@ div.desc {
 .inner a {
     
     font-size: 20px;
-    background-color: #33469b;
     color: #ffffff;
     border: none;
-    background-color: #33469b;
-    color: #ffffff;
+    background-color: #ccc;
     cursor: pointer;
     text-decoration: none;
+    
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 
 
 .inner a:hover {
     font-size: 20px;
-    background-color: #ccc;
-    color: #33469b;
+    background-color: #33469b;
+    color: #ffffff;
     border: none;
-    background-color: #ccc;
-    color: #33469b;
     cursor: pointer;
     text-decoration: none;
+    
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .colss {
