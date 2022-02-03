@@ -26,7 +26,7 @@ nav .list li {
     display: inline-block;
     font-size: 20px;
     margin-top: 40px;
-    background-color: rgba(128, 128, 128, 0.493);
+    background-color: #33469b91;
     padding: 5px 17px 5px 5px;
 
 }
@@ -298,6 +298,8 @@ footer h1 {
     background-color: rgba(0, 0, 0, 0.068);
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
+    color: #33469b;
+    padding-top: 30px;
 }
 
 footer .icon p {
@@ -607,26 +609,28 @@ div.desc {
 .inner a {
 
     font-size: 20px;
-    background-color: #33469b;
     color: #ffffff;
     border: none;
-    background-color: #33469b;
-    color: #ffffff;
+    background-color: #ccc;
     cursor: pointer;
     text-decoration: none;
+
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 
 
 .inner a:hover {
     font-size: 20px;
-    background-color: #ccc;
-    color: #33469b;
+    background-color: #33469b;
+    color: #ffffff;
     border: none;
-    background-color: #ccc;
-    color: #33469b;
     cursor: pointer;
     text-decoration: none;
+
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .colss {
@@ -1256,13 +1260,7 @@ input[type=paswoord]:focus {
         padding-right: 300px;
     }
 
-    .icon h2 {
-        font-size: 20px;
-        padding-left: 2%;
-        color: #33469b;
-    }
-
-    .footer-title {
+    .icon h1 {
         font-size: 20px;
         color: #33469b;
         padding-top: 20px;
@@ -1282,7 +1280,7 @@ input[type=paswoord]:focus {
         margin-bottom: 10px;
     }
 
-    .footer-title {
+    .icon h1 {
         font-size: 10px;
         color: #33469b;
         padding-top: 20px;
