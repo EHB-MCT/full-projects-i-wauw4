@@ -36,6 +36,7 @@ body {
 
 nav .list img {
     position: static;
+
 }
 
 nav .list ul li {
@@ -974,12 +975,14 @@ input[type=paswoord]:focus {
     text-align: center;
     margin: 15px;
     font-family: 'Manrope', sans-serif;
+    margin-bottom: 20px;
 }
 
 .modal-content p {
     font-size: 25px;
     line-height: 30px;
     font-family: 'Manrope', sans-serif;
+    margin-bottom: 20px;
 }
 
 .modal-content li {
@@ -990,13 +993,21 @@ input[type=paswoord]:focus {
 }
 
 .modal-content li strong {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
     font-family: 'Manrope', sans-serif;
     font-weight: bold;
 
 }
 
+.modal-content img {
+    margin-left: 190px;
+}
+
+.modal-content video {
+    width: 300px;
+
+}
 
 /* The Close Button */
 .close {
@@ -1047,7 +1058,24 @@ input[type=paswoord]:focus {
     background-color: #33469b;
     color: #ffffff;
     padding: 10px;
+    cursor: pointer;
 }
+
+.popup:hover {
+    font-size: 25px;
+    background-color: #ccc;
+    color: #33469b;
+    padding: 10px;
+    border: none;
+
+    font-size: 25px;
+    
+    background-color: #ccc;
+    color: #33469b;
+    padding: 10px;
+    cursor: pointer;
+}
+
 
 .popupwrapper {
     margin: 0 auto;
