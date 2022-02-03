@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap');
 
-img {
+.twp img {
     max-width: 100%;
     height: auto;
 }
@@ -47,7 +47,7 @@ nav .list {
 }
 
 .line li a {
-    border-bottom: solid #33469b;
+    border-bottom: solid white;
 }
 
 nav .list li a {
@@ -1222,27 +1222,20 @@ input[type=paswoord]:focus {
     .visitekaart h2 {
         font-size: 15px;
     }
-}
 
-@media (max-width:900px) {
-
-    .kader {
-        padding-top: 30px;
+    .popup {
+        font-size: 15px;
     }
 
-    .kader ul li {
-        font-size: 20px;
-        margin-bottom: 10px;
+    .popup:hover {
+        font-size: 15px;
     }
 
-    .footer-title {
-        font-size: 20px;
-        color: #33469b;
-        padding-top: 20px;
-        font-family: 'Manrope', sans-serif;
+
+    .card img {
+        width: 100%;
     }
 }
-
 
 @media (max-width:700px) {
     .kader ul li {
@@ -1252,7 +1245,7 @@ input[type=paswoord]:focus {
     }
 
     .kader ul {
-        padding-right: 300px;
+        padding-right: 100px;
     }
 
     .icon h1 {
@@ -1262,6 +1255,13 @@ input[type=paswoord]:focus {
         font-family: 'Manrope', sans-serif;
     }
 
+    .popup {
+        font-size: 15px;
+    }
+
+    .popup:hover {
+        font-size: 15px;
+    }
 }
 
 @media (max-width:480px) {
@@ -1271,8 +1271,11 @@ input[type=paswoord]:focus {
     }
 
     .kader ul li {
-        font-size: 20px;
         margin-bottom: 10px;
+    }
+
+    .kader img {
+        width: auto;
     }
 
     .icon h1 {
@@ -1280,5 +1283,13 @@ input[type=paswoord]:focus {
         color: #33469b;
         padding-top: 20px;
         font-family: 'Manrope', sans-serif;
+    }
+
+    .popup {
+        font-size: 15px;
+    }
+
+    .popup:hover {
+        font-size: 15px;
     }
 }
