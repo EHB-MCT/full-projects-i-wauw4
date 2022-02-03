@@ -55,7 +55,8 @@ nav .list li a {
 nav .list li a:hover {
     color: white;
     background-color: #33469b;
-    padding: 5px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
 }
 
 .middel {
@@ -93,7 +94,7 @@ nav .list li a:hover {
 }
 
 .pfbg {
-    background: url("../images/index/Asset-2.png") no-repeat;
+    background: url("../images/index/1x/Asset-2.png") no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -112,7 +113,7 @@ nav .list li a:hover {
 }
 
 .agendaNav {
-    background: url("../images/index/Asset-12.jpg") no-repeat;
+    background: url("../images/index/1x/Asset-12.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -595,6 +596,31 @@ div.desc {
 
 .inner p {
     font-size: 25px;
+}
+
+.inner a {
+    
+    font-size: 20px;
+    background-color: #33469b;
+    color: #ffffff;
+    border: none;
+    background-color: #33469b;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.inner a:hover {
+    font-size: 20px;
+    background-color: #ccc;
+    color: #33469b;
+    border: none;
+    background-color: #ccc;
+    color: #33469b;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .colss {
