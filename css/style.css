@@ -1745,7 +1745,6 @@ input[type=paswoord]:focus {
 
 .flex-wrapper {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 }
 
