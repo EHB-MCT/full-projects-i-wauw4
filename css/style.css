@@ -87,9 +87,10 @@ nav .list li a:hover {
     align-items: center;
 }
 
-.kader ul {
+.whiteKader {
     border: 7px solid white;
 }
+
 
 .kader img {
     width: 320px;
@@ -1388,11 +1389,10 @@ input[type=paswoord]:focus {
 
     nav .list li {
         display: inline-block;
-        font-size: 14px;
+        font-size: 20px;
         margin-top: 40px;
         background-color: #33469b91;
         padding: 5px 17px 5px 5px;
-
     }
 
     nav .list li a:hover {
@@ -1731,11 +1731,6 @@ input[type=paswoord]:focus {
     padding-top: 30px;
 }
 
-.kader ul li {
-    margin-bottom: 10px;
-    font-size: 14px;
-}
-
 .icon h1 {
     color: #33469b;
     padding-top: 20px;
@@ -1754,6 +1749,7 @@ nav .list li {
     margin-top: 40px;
     background-color: #33469b91;
     padding: 5px 17px 5px 5px;
+    font-size: 20px;
 }
 
 nav .list li a:hover {
